@@ -1,0 +1,792 @@
+[0.000000] (-) TimerEvent: {}
+[0.001939] (jsc_mecanum_control) JobQueued: {'identifier': 'jsc_mecanum_control', 'dependencies': OrderedDict()}
+[0.002647] (jsc_mecanum_controller) JobQueued: {'identifier': 'jsc_mecanum_controller', 'dependencies': OrderedDict()}
+[0.003361] (jsc_mecanum_description) JobQueued: {'identifier': 'jsc_mecanum_description', 'dependencies': OrderedDict()}
+[0.003600] (jsc_mecanum_hardware) JobQueued: {'identifier': 'jsc_mecanum_hardware', 'dependencies': OrderedDict()}
+[0.003795] (jsc_mecanum_teleop) JobQueued: {'identifier': 'jsc_mecanum_teleop', 'dependencies': OrderedDict()}
+[0.003988] (motor_gui_pkg) JobQueued: {'identifier': 'motor_gui_pkg', 'dependencies': OrderedDict()}
+[0.004304] (robot_serial) JobQueued: {'identifier': 'robot_serial', 'dependencies': OrderedDict()}
+[0.004519] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.004747] (jsc_mecanum_bringup) JobQueued: {'identifier': 'jsc_mecanum_bringup', 'dependencies': OrderedDict([('jsc_mecanum_description', '/home/pi/ros2_ws/install/jsc_mecanum_description')])}
+[0.004881] (jsc_mecanum_description) JobStarted: {'identifier': 'jsc_mecanum_description'}
+[0.061644] (jsc_mecanum_control) JobStarted: {'identifier': 'jsc_mecanum_control'}
+[0.090816] (jsc_mecanum_controller) JobStarted: {'identifier': 'jsc_mecanum_controller'}
+[0.099161] (-) TimerEvent: {}
+[0.121809] (jsc_mecanum_hardware) JobStarted: {'identifier': 'jsc_mecanum_hardware'}
+[0.160086] (jsc_mecanum_description) JobProgress: {'identifier': 'jsc_mecanum_description', 'progress': 'cmake'}
+[0.165175] (jsc_mecanum_description) JobProgress: {'identifier': 'jsc_mecanum_description', 'progress': 'build'}
+[0.167765] (jsc_mecanum_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ros2_ws/build/jsc_mecanum_description', '--', '-j4', '-l4'], 'cwd': '/home/pi/ros2_ws/build/jsc_mecanum_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.1.50 57212 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib:/home/pi/ros2_ws/install/jsc_mecanum_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/jsc_mecanum_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.50 57212 192.168.1.55 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble')]), 'shell': False}
+[0.184139] (jsc_mecanum_control) JobProgress: {'identifier': 'jsc_mecanum_control', 'progress': 'cmake'}
+[0.192742] (jsc_mecanum_control) JobProgress: {'identifier': 'jsc_mecanum_control', 'progress': 'build'}
+[0.194086] (jsc_mecanum_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ros2_ws/build/jsc_mecanum_control', '--', '-j4', '-l4'], 'cwd': '/home/pi/ros2_ws/build/jsc_mecanum_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.1.50 57212 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib:/home/pi/ros2_ws/install/jsc_mecanum_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/jsc_mecanum_control'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.50 57212 192.168.1.55 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble')]), 'shell': False}
+[0.206881] (-) TimerEvent: {}
+[0.207691] (jsc_mecanum_controller) JobProgress: {'identifier': 'jsc_mecanum_controller', 'progress': 'cmake'}
+[0.211541] (jsc_mecanum_controller) JobProgress: {'identifier': 'jsc_mecanum_controller', 'progress': 'build'}
+[0.215680] (jsc_mecanum_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ros2_ws/build/jsc_mecanum_controller', '--', '-j4', '-l4'], 'cwd': '/home/pi/ros2_ws/build/jsc_mecanum_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.1.50 57212 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib:/home/pi/ros2_ws/install/jsc_mecanum_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/jsc_mecanum_controller'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.50 57212 192.168.1.55 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble')]), 'shell': False}
+[0.237365] (jsc_mecanum_hardware) JobProgress: {'identifier': 'jsc_mecanum_hardware', 'progress': 'cmake'}
+[0.246502] (jsc_mecanum_hardware) JobProgress: {'identifier': 'jsc_mecanum_hardware', 'progress': 'build'}
+[0.254472] (jsc_mecanum_hardware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ros2_ws/build/jsc_mecanum_hardware', '--', '-j4', '-l4'], 'cwd': '/home/pi/ros2_ws/build/jsc_mecanum_hardware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.1.50 57212 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib:/home/pi/ros2_ws/install/jsc_mecanum_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/jsc_mecanum_hardware'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.50 57212 192.168.1.55 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble')]), 'shell': False}
+[0.307219] (-) TimerEvent: {}
+[0.409019] (-) TimerEvent: {}
+[0.481868] (jsc_mecanum_description) CommandEnded: {'returncode': 0}
+[0.512544] (-) TimerEvent: {}
+[0.617674] (-) TimerEvent: {}
+[0.651960] (jsc_mecanum_description) JobProgress: {'identifier': 'jsc_mecanum_description', 'progress': 'install'}
+[0.699513] (jsc_mecanum_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ros2_ws/build/jsc_mecanum_description'], 'cwd': '/home/pi/ros2_ws/build/jsc_mecanum_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.1.50 57212 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib:/home/pi/ros2_ws/install/jsc_mecanum_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/jsc_mecanum_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.50 57212 192.168.1.55 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble')]), 'shell': False}
+[0.720551] (-) TimerEvent: {}
+[0.742478] (jsc_mecanum_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.747178] (jsc_mecanum_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.749866] (jsc_mecanum_controller) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/jsc_mecanum_controller.dir/src/jsc_mecanum_drive_controller.cpp.o\x1b[0m\n'}
+[0.754649] (jsc_mecanum_hardware) StdoutLine: {'line': b'[100%] Built target jsc_mecanum_hardware\n'}
+[0.756185] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/config/diff_drive_controller.yaml\n'}
+[0.758635] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/config/robot_controller_config.yaml\n'}
+[0.761850] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/config/slam_toolbox_config.yaml\n'}
+[0.763980] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v1_launch.py\n'}
+[0.765769] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v2_launch.py\n'}
+[0.766559] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v3_launch.py\n'}
+[0.769024] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v4_launch.py\n'}
+[0.771129] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v4_launch_pi.py\n'}
+[0.771643] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v5_launch.py\n'}
+[0.772157] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v6_launch.py\n'}
+[0.774777] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v6_launch_pi.py\n'}
+[0.775342] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v7_launch_pi.py\n'}
+[0.780755] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v8_pi.py\n'}
+[0.781566] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v9_pi.py\n'}
+[0.782243] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/meshes/fl_wheel_link.STL\n'}
+[0.782838] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/meshes/fr_wheel_link.STL\n'}
+[0.783463] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/meshes/rl_wheel_link.STL\n'}
+[0.784054] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/meshes/rr_wheel_link.STL\n'}
+[0.785040] (jsc_mecanum_control) StdoutLine: {'line': b'[100%] Built target jsc_mecanum_control_node\n'}
+[0.785975] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/models/jsc_mecanum_bot_description/meshes/fl_wheel_link.STL\n'}
+[0.786941] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/models/jsc_mecanum_bot_description/meshes/fr_wheel_link.STL\n'}
+[0.788154] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/models/jsc_mecanum_bot_description/meshes/rl_wheel_link.STL\n'}
+[0.788875] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/models/jsc_mecanum_bot_description/meshes/rr_wheel_link.STL\n'}
+[0.789521] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/models/jsc_mecanum_bot_description/model.config\n'}
+[0.790229] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/models/jsc_mecanum_bot_description/model.sdf\n'}
+[0.790879] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/rviz/model.rviz\n'}
+[0.791792] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/src/jsc_mecanum_description.urdf\n'}
+[0.792544] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/ament_index/resource_index/package_run_dependencies/jsc_mecanum_description\n'}
+[0.793595] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/ament_index/resource_index/parent_prefix_path/jsc_mecanum_description\n'}
+[0.796878] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/environment/ament_prefix_path.sh\n'}
+[0.797757] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/environment/ament_prefix_path.dsv\n'}
+[0.798646] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/environment/path.sh\n'}
+[0.800782] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/environment/path.dsv\n'}
+[0.804821] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/local_setup.bash\n'}
+[0.805583] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/local_setup.sh\n'}
+[0.806203] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/local_setup.zsh\n'}
+[0.810500] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/local_setup.dsv\n'}
+[0.811512] (jsc_mecanum_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/package.dsv\n'}
+[0.821508] (jsc_mecanum_hardware) CommandEnded: {'returncode': 0}
+[0.822970] (-) TimerEvent: {}
+[0.856758] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/ament_index/resource_index/packages/jsc_mecanum_description\n'}
+[0.864892] (jsc_mecanum_control) CommandEnded: {'returncode': 0}
+[0.866765] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/cmake/jsc_mecanum_descriptionConfig.cmake\n'}
+[0.867523] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/cmake/jsc_mecanum_descriptionConfig-version.cmake\n'}
+[0.872765] (jsc_mecanum_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/package.xml\n'}
+[0.879609] (jsc_mecanum_description) CommandEnded: {'returncode': 0}
+[0.923200] (-) TimerEvent: {}
+[1.024109] (-) TimerEvent: {}
+[1.051253] (jsc_mecanum_hardware) JobProgress: {'identifier': 'jsc_mecanum_hardware', 'progress': 'install'}
+[1.062385] (jsc_mecanum_hardware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ros2_ws/build/jsc_mecanum_hardware'], 'cwd': '/home/pi/ros2_ws/build/jsc_mecanum_hardware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.1.50 57212 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib:/home/pi/ros2_ws/install/jsc_mecanum_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/jsc_mecanum_hardware'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.50 57212 192.168.1.55 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble')]), 'shell': False}
+[1.071843] (jsc_mecanum_control) JobProgress: {'identifier': 'jsc_mecanum_control', 'progress': 'install'}
+[1.072071] (jsc_mecanum_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ros2_ws/build/jsc_mecanum_control'], 'cwd': '/home/pi/ros2_ws/build/jsc_mecanum_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.1.50 57212 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib:/home/pi/ros2_ws/install/jsc_mecanum_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/jsc_mecanum_control'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.50 57212 192.168.1.55 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble')]), 'shell': False}
+[1.100404] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.110613] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.112580] (jsc_mecanum_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.113258] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware//jsc_mecanum_hardware.xml\n'}
+[1.120551] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/lib/libjsc_mecanum_hardware.so\n'}
+[1.121417] (jsc_mecanum_control) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.122328] (jsc_mecanum_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_control/lib/jsc_mecanum_control/jsc_mecanum_control_node\n'}
+[1.122893] (jsc_mecanum_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_control/share/ament_index/resource_index/package_run_dependencies/jsc_mecanum_control\n'}
+[1.123416] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/include/include/jsc_mecanum_hardware/jsc_mecanum_hardware.hpp\n'}
+[1.123949] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/include/include/jsc_mecanum_hardware/jsc_mecanum_hardware_compiler.h\n'}
+[1.124417] (-) TimerEvent: {}
+[1.124992] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/include/include/jsc_mecanum_hardware/jsc_mecanum_serial_port.hpp\n'}
+[1.125636] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/library_path.sh\n'}
+[1.128239] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/library_path.dsv\n'}
+[1.129026] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/package_run_dependencies/jsc_mecanum_hardware\n'}
+[1.129551] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/parent_prefix_path/jsc_mecanum_hardware\n'}
+[1.130047] (jsc_mecanum_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_control/share/ament_index/resource_index/parent_prefix_path/jsc_mecanum_control\n'}
+[1.130527] (jsc_mecanum_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/environment/ament_prefix_path.sh\n'}
+[1.131015] (jsc_mecanum_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/environment/ament_prefix_path.dsv\n'}
+[1.131603] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/ament_prefix_path.sh\n'}
+[1.132026] (jsc_mecanum_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/environment/path.sh\n'}
+[1.133046] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/ament_prefix_path.dsv\n'}
+[1.133675] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/path.sh\n'}
+[1.134146] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/path.dsv\n'}
+[1.134595] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.bash\n'}
+[1.135199] (jsc_mecanum_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/environment/path.dsv\n'}
+[1.135710] (jsc_mecanum_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/local_setup.bash\n'}
+[1.136185] (jsc_mecanum_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/local_setup.sh\n'}
+[1.137432] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.sh\n'}
+[1.138138] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.zsh\n'}
+[1.138793] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.dsv\n'}
+[1.139250] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.dsv\n'}
+[1.139706] (jsc_mecanum_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/local_setup.zsh\n'}
+[1.140330] (jsc_mecanum_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/local_setup.dsv\n'}
+[1.141341] (jsc_mecanum_control) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/package.dsv\n'}
+[1.177799] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/packages/jsc_mecanum_hardware\n'}
+[1.180909] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/jsc_mecanum_hardware\n'}
+[1.181583] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.184060] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.185346] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.188153] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/jsc_mecanum_hardwareConfig.cmake\n'}
+[1.189144] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/jsc_mecanum_hardwareConfig-version.cmake\n'}
+[1.191820] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.xml\n'}
+[1.193729] (jsc_mecanum_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_control/share/ament_index/resource_index/packages/jsc_mecanum_control\n'}
+[1.194238] (jsc_mecanum_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/cmake/jsc_mecanum_controlConfig.cmake\n'}
+[1.194627] (jsc_mecanum_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/cmake/jsc_mecanum_controlConfig-version.cmake\n'}
+[1.195034] (jsc_mecanum_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/package.xml\n'}
+[1.201854] (jsc_mecanum_control) CommandEnded: {'returncode': 0}
+[1.225549] (-) TimerEvent: {}
+[1.246342] (jsc_mecanum_hardware) CommandEnded: {'returncode': 0}
+[1.340236] (-) TimerEvent: {}
+[1.360087] (jsc_mecanum_description) JobEnded: {'identifier': 'jsc_mecanum_description', 'rc': 0}
+[1.367483] (jsc_mecanum_teleop) JobStarted: {'identifier': 'jsc_mecanum_teleop'}
+[1.440645] (-) TimerEvent: {}
+[1.449661] (jsc_mecanum_control) JobEnded: {'identifier': 'jsc_mecanum_control', 'rc': 0}
+[1.457148] (motor_gui_pkg) JobStarted: {'identifier': 'motor_gui_pkg'}
+[1.500646] (jsc_mecanum_teleop) JobProgress: {'identifier': 'jsc_mecanum_teleop', 'progress': 'cmake'}
+[1.504877] (jsc_mecanum_teleop) JobProgress: {'identifier': 'jsc_mecanum_teleop', 'progress': 'build'}
+[1.506074] (jsc_mecanum_teleop) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ros2_ws/build/jsc_mecanum_teleop', '--', '-j4', '-l4'], 'cwd': '/home/pi/ros2_ws/build/jsc_mecanum_teleop', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.1.50 57212 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib:/home/pi/ros2_ws/install/jsc_mecanum_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/jsc_mecanum_teleop'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.50 57212 192.168.1.55 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble')]), 'shell': False}
+[1.541797] (-) TimerEvent: {}
+[1.571068] (jsc_mecanum_hardware) JobEnded: {'identifier': 'jsc_mecanum_hardware', 'rc': 0}
+[1.578162] (robot_serial) JobStarted: {'identifier': 'robot_serial'}
+[1.642123] (-) TimerEvent: {}
+[1.744657] (-) TimerEvent: {}
+[1.848557] (-) TimerEvent: {}
+[1.874520] (jsc_mecanum_teleop) StdoutLine: {'line': b'[100%] Built target jsc_mecanum_teleop\n'}
+[1.948742] (-) TimerEvent: {}
+[2.049694] (-) TimerEvent: {}
+[2.150539] (-) TimerEvent: {}
+[2.251495] (-) TimerEvent: {}
+[2.352395] (-) TimerEvent: {}
+[2.453201] (-) TimerEvent: {}
+[2.554060] (-) TimerEvent: {}
+[2.654926] (-) TimerEvent: {}
+[2.755690] (-) TimerEvent: {}
+[2.856607] (-) TimerEvent: {}
+[2.957404] (-) TimerEvent: {}
+[3.058320] (-) TimerEvent: {}
+[3.159251] (-) TimerEvent: {}
+[3.206073] (jsc_mecanum_teleop) CommandEnded: {'returncode': 0}
+[3.259428] (-) TimerEvent: {}
+[3.360432] (-) TimerEvent: {}
+[3.461662] (-) TimerEvent: {}
+[3.562576] (-) TimerEvent: {}
+[3.663769] (-) TimerEvent: {}
+[3.764570] (-) TimerEvent: {}
+[3.865342] (-) TimerEvent: {}
+[3.966150] (-) TimerEvent: {}
+[4.066930] (-) TimerEvent: {}
+[4.168833] (-) TimerEvent: {}
+[4.270530] (-) TimerEvent: {}
+[4.371452] (-) TimerEvent: {}
+[4.472249] (-) TimerEvent: {}
+[4.573073] (-) TimerEvent: {}
+[4.674133] (-) TimerEvent: {}
+[4.728225] (jsc_mecanum_teleop) JobProgress: {'identifier': 'jsc_mecanum_teleop', 'progress': 'install'}
+[4.736112] (jsc_mecanum_teleop) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ros2_ws/build/jsc_mecanum_teleop'], 'cwd': '/home/pi/ros2_ws/build/jsc_mecanum_teleop', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.1.50 57212 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib:/home/pi/ros2_ws/install/jsc_mecanum_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/jsc_mecanum_teleop'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.50 57212 192.168.1.55 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble')]), 'shell': False}
+[4.774601] (-) TimerEvent: {}
+[4.777751] (jsc_mecanum_teleop) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.783511] (jsc_mecanum_teleop) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.786099] (jsc_mecanum_teleop) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/config/teleop_config.yaml\n'}
+[4.791664] (jsc_mecanum_teleop) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/lib/jsc_mecanum_teleop/jsc_mecanum_teleop\n'}
+[4.792694] (jsc_mecanum_teleop) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/ament_index/resource_index/package_run_dependencies/jsc_mecanum_teleop\n'}
+[4.796838] (jsc_mecanum_teleop) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/ament_index/resource_index/parent_prefix_path/jsc_mecanum_teleop\n'}
+[4.800846] (jsc_mecanum_teleop) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/environment/ament_prefix_path.sh\n'}
+[4.804753] (jsc_mecanum_teleop) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/environment/ament_prefix_path.dsv\n'}
+[4.805527] (jsc_mecanum_teleop) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/environment/path.sh\n'}
+[4.808539] (jsc_mecanum_teleop) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/environment/path.dsv\n'}
+[4.812740] (jsc_mecanum_teleop) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/local_setup.bash\n'}
+[4.813525] (jsc_mecanum_teleop) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/local_setup.sh\n'}
+[4.814240] (jsc_mecanum_teleop) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/local_setup.zsh\n'}
+[4.819409] (jsc_mecanum_teleop) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/local_setup.dsv\n'}
+[4.820173] (jsc_mecanum_teleop) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/package.dsv\n'}
+[4.873069] (jsc_mecanum_teleop) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/ament_index/resource_index/packages/jsc_mecanum_teleop\n'}
+[4.875245] (-) TimerEvent: {}
+[4.880214] (jsc_mecanum_teleop) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/cmake/jsc_mecanum_teleopConfig.cmake\n'}
+[4.888929] (jsc_mecanum_teleop) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/cmake/jsc_mecanum_teleopConfig-version.cmake\n'}
+[4.889764] (jsc_mecanum_teleop) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/package.xml\n'}
+[4.904815] (jsc_mecanum_teleop) CommandEnded: {'returncode': 0}
+[4.982478] (-) TimerEvent: {}
+[5.088530] (-) TimerEvent: {}
+[5.192557] (-) TimerEvent: {}
+[5.296544] (-) TimerEvent: {}
+[5.402533] (-) TimerEvent: {}
+[5.460563] (jsc_mecanum_teleop) JobEnded: {'identifier': 'jsc_mecanum_teleop', 'rc': 0}
+[5.463065] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[5.504571] (-) TimerEvent: {}
+[5.513997] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[5.532538] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[5.532875] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ros2_ws/build/sllidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/pi/ros2_ws/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.1.50 57212 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib:/home/pi/ros2_ws/install/jsc_mecanum_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.50 57212 192.168.1.55 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble')]), 'shell': False}
+[5.608525] (-) TimerEvent: {}
+[5.712591] (-) TimerEvent: {}
+[5.816530] (-) TimerEvent: {}
+[5.920554] (-) TimerEvent: {}
+[6.023464] (-) TimerEvent: {}
+[6.037107] (sllidar_ros2) StdoutLine: {'line': b'[ 10%] Built target sllidar_client\n'}
+[6.068539] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_node\n'}
+[6.132439] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[6.134129] (-) TimerEvent: {}
+[6.237032] (-) TimerEvent: {}
+[6.340636] (-) TimerEvent: {}
+[6.441535] (-) TimerEvent: {}
+[6.544546] (-) TimerEvent: {}
+[6.648588] (-) TimerEvent: {}
+[6.735319] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[6.735708] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ros2_ws/build/sllidar_ros2'], 'cwd': '/home/pi/ros2_ws/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.1.50 57212 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib:/home/pi/ros2_ws/install/jsc_mecanum_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.50 57212 192.168.1.55 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble')]), 'shell': False}
+[6.748904] (-) TimerEvent: {}
+[6.791220] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.795636] (sllidar_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.799846] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[6.801127] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py\n'}
+[6.803441] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[6.804136] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[6.807952] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[6.810091] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[6.811002] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[6.813189] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[6.815037] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[6.815711] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch_copy.py\n'}
+[6.816391] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[6.817090] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[6.825298] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[6.826127] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[6.826892] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[6.827654] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[6.828316] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[6.829441] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[6.830160] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[6.830987] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[6.831716] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[6.832620] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[6.833539] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[6.838762] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[6.839673] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[6.840580] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[6.841379] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[6.842631] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[6.843346] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[6.844338] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[6.852597] (-) TimerEvent: {}
+[6.853685] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[6.854454] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[6.855275] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[6.860585] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[6.861388] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[6.862134] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[6.863089] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[6.863948] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[6.869345] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[6.910315] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[6.913636] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.916469] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.919005] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[6.921503] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[6.924202] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[6.944542] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[6.954710] (-) TimerEvent: {}
+[7.057276] (-) TimerEvent: {}
+[7.160096] (-) TimerEvent: {}
+[7.262118] (-) TimerEvent: {}
+[7.368533] (-) TimerEvent: {}
+[7.469932] (-) TimerEvent: {}
+[7.571100] (-) TimerEvent: {}
+[7.592640] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[7.606536] (jsc_mecanum_bringup) JobStarted: {'identifier': 'jsc_mecanum_bringup'}
+[7.651574] (jsc_mecanum_bringup) JobProgress: {'identifier': 'jsc_mecanum_bringup', 'progress': 'cmake'}
+[7.656631] (jsc_mecanum_bringup) JobProgress: {'identifier': 'jsc_mecanum_bringup', 'progress': 'build'}
+[7.657894] (jsc_mecanum_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ros2_ws/build/jsc_mecanum_bringup', '--', '-j4', '-l4'], 'cwd': '/home/pi/ros2_ws/build/jsc_mecanum_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.1.50 57212 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib:/home/pi/ros2_ws/install/jsc_mecanum_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/jsc_mecanum_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.50 57212 192.168.1.55 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble')]), 'shell': False}
+[7.671397] (-) TimerEvent: {}
+[7.772447] (-) TimerEvent: {}
+[7.876537] (-) TimerEvent: {}
+[7.905171] (jsc_mecanum_bringup) CommandEnded: {'returncode': 0}
+[7.980516] (-) TimerEvent: {}
+[8.058263] (jsc_mecanum_bringup) JobProgress: {'identifier': 'jsc_mecanum_bringup', 'progress': 'install'}
+[8.060897] (jsc_mecanum_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ros2_ws/build/jsc_mecanum_bringup'], 'cwd': '/home/pi/ros2_ws/build/jsc_mecanum_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.1.50 57212 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib:/home/pi/ros2_ws/install/jsc_mecanum_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/jsc_mecanum_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.50 57212 192.168.1.55 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble')]), 'shell': False}
+[8.084593] (-) TimerEvent: {}
+[8.099960] (jsc_mecanum_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.104096] (jsc_mecanum_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.108712] (jsc_mecanum_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/launch/jsc_mecanum_hardware.py\n'}
+[8.116153] (jsc_mecanum_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/launch/jsc_mecanum_state_publisher.py\n'}
+[8.119734] (jsc_mecanum_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/launch/jsc_mecanum_teleop.py\n'}
+[8.122759] (jsc_mecanum_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/launch/prueba.py\n'}
+[8.126401] (jsc_mecanum_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/launch/rviz2.py\n'}
+[8.130498] (jsc_mecanum_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/ament_index/resource_index/package_run_dependencies/jsc_mecanum_bringup\n'}
+[8.134812] (jsc_mecanum_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/ament_index/resource_index/parent_prefix_path/jsc_mecanum_bringup\n'}
+[8.138249] (jsc_mecanum_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/environment/ament_prefix_path.sh\n'}
+[8.141471] (jsc_mecanum_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/environment/ament_prefix_path.dsv\n'}
+[8.144311] (jsc_mecanum_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/environment/path.sh\n'}
+[8.147332] (jsc_mecanum_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/environment/path.dsv\n'}
+[8.148143] (jsc_mecanum_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/local_setup.bash\n'}
+[8.150431] (jsc_mecanum_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/local_setup.sh\n'}
+[8.151196] (jsc_mecanum_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/local_setup.zsh\n'}
+[8.153721] (jsc_mecanum_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/local_setup.dsv\n'}
+[8.156568] (jsc_mecanum_bringup) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/package.dsv\n'}
+[8.188577] (-) TimerEvent: {}
+[8.210641] (jsc_mecanum_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/ament_index/resource_index/packages/jsc_mecanum_bringup\n'}
+[8.213577] (jsc_mecanum_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/cmake/jsc_mecanum_bringupConfig.cmake\n'}
+[8.216338] (jsc_mecanum_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/cmake/jsc_mecanum_bringupConfig-version.cmake\n'}
+[8.218921] (jsc_mecanum_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/package.xml\n'}
+[8.232774] (jsc_mecanum_bringup) CommandEnded: {'returncode': 0}
+[8.292648] (-) TimerEvent: {}
+[8.396611] (-) TimerEvent: {}
+[8.501352] (-) TimerEvent: {}
+[8.577878] (jsc_mecanum_bringup) JobEnded: {'identifier': 'jsc_mecanum_bringup', 'rc': 0}
+[8.590629] (motor_gui_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_gui_pkg', 'build', '--build-base', '/home/pi/ros2_ws/build/motor_gui_pkg/build', 'install', '--record', '/home/pi/ros2_ws/build/motor_gui_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/ros2_ws/src/motor_gui_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.1.50 57212 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib:/home/pi/ros2_ws/install/jsc_mecanum_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros2_ws/build/motor_gui_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.50 57212 192.168.1.55 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_ws/build/motor_gui_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control'}, 'shell': False}
+[8.599370] (robot_serial) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_serial', 'build', '--build-base', '/home/pi/ros2_ws/build/robot_serial/build', 'install', '--record', '/home/pi/ros2_ws/build/robot_serial/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/ros2_ws/src/robot_serial', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.1.50 57212 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib:/home/pi/ros2_ws/install/jsc_mecanum_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros2_ws/build/robot_serial', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.50 57212 192.168.1.55 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_ws/build/robot_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control'}, 'shell': False}
+[8.610042] (-) TimerEvent: {}
+[8.711059] (-) TimerEvent: {}
+[8.812044] (-) TimerEvent: {}
+[8.916914] (-) TimerEvent: {}
+[9.019867] (-) TimerEvent: {}
+[9.129815] (-) TimerEvent: {}
+[9.232066] (-) TimerEvent: {}
+[9.336828] (-) TimerEvent: {}
+[9.438726] (-) TimerEvent: {}
+[9.540870] (-) TimerEvent: {}
+[9.642923] (-) TimerEvent: {}
+[9.745167] (-) TimerEvent: {}
+[9.847159] (-) TimerEvent: {}
+[9.949360] (-) TimerEvent: {}
+[10.050551] (-) TimerEvent: {}
+[10.152636] (-) TimerEvent: {}
+[10.254753] (-) TimerEvent: {}
+[10.356736] (-) TimerEvent: {}
+[10.379641] (motor_gui_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[10.384298] (motor_gui_pkg) StdoutLine: {'line': b'writing ../../build/motor_gui_pkg/motor_gui_pkg.egg-info/PKG-INFO\n'}
+[10.386507] (motor_gui_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_gui_pkg/motor_gui_pkg.egg-info/dependency_links.txt\n'}
+[10.390366] (motor_gui_pkg) StdoutLine: {'line': b'writing entry points to ../../build/motor_gui_pkg/motor_gui_pkg.egg-info/entry_points.txt\n'}
+[10.395228] (motor_gui_pkg) StdoutLine: {'line': b'writing requirements to ../../build/motor_gui_pkg/motor_gui_pkg.egg-info/requires.txt\n'}
+[10.396539] (motor_gui_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/motor_gui_pkg/motor_gui_pkg.egg-info/top_level.txt\n'}
+[10.401548] (motor_gui_pkg) StdoutLine: {'line': b"reading manifest file '../../build/motor_gui_pkg/motor_gui_pkg.egg-info/SOURCES.txt'\n"}
+[10.406284] (motor_gui_pkg) StdoutLine: {'line': b"writing manifest file '../../build/motor_gui_pkg/motor_gui_pkg.egg-info/SOURCES.txt'\n"}
+[10.408761] (motor_gui_pkg) StdoutLine: {'line': b'running build\n'}
+[10.410217] (motor_gui_pkg) StdoutLine: {'line': b'running build_py\n'}
+[10.412921] (motor_gui_pkg) StdoutLine: {'line': b'running install\n'}
+[10.415198] (motor_gui_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[10.418447] (motor_gui_pkg) StdoutLine: {'line': b'running install_data\n'}
+[10.420569] (motor_gui_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.431695] (motor_gui_pkg) StdoutLine: {'line': b"removing '/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages/motor_gui_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.434200] (motor_gui_pkg) StdoutLine: {'line': b'Copying ../../build/motor_gui_pkg/motor_gui_pkg.egg-info to /home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages/motor_gui_pkg-0.0.0-py3.10.egg-info\n'}
+[10.438529] (robot_serial) StdoutLine: {'line': b'running egg_info\n'}
+[10.441228] (robot_serial) StdoutLine: {'line': b'writing ../../build/robot_serial/robot_serial.egg-info/PKG-INFO\n'}
+[10.443243] (robot_serial) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_serial/robot_serial.egg-info/dependency_links.txt\n'}
+[10.444267] (robot_serial) StdoutLine: {'line': b'writing entry points to ../../build/robot_serial/robot_serial.egg-info/entry_points.txt\n'}
+[10.445469] (robot_serial) StdoutLine: {'line': b'writing requirements to ../../build/robot_serial/robot_serial.egg-info/requires.txt\n'}
+[10.446269] (robot_serial) StdoutLine: {'line': b'writing top-level names to ../../build/robot_serial/robot_serial.egg-info/top_level.txt\n'}
+[10.449720] (motor_gui_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[10.455747] (robot_serial) StdoutLine: {'line': b"reading manifest file '../../build/robot_serial/robot_serial.egg-info/SOURCES.txt'\n"}
+[10.457707] (robot_serial) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[10.458387] (-) TimerEvent: {}
+[10.461153] (robot_serial) StdoutLine: {'line': b"writing manifest file '../../build/robot_serial/robot_serial.egg-info/SOURCES.txt'\n"}
+[10.462498] (robot_serial) StdoutLine: {'line': b'running build\n'}
+[10.463560] (robot_serial) StdoutLine: {'line': b'running build_py\n'}
+[10.465528] (robot_serial) StdoutLine: {'line': b'running install\n'}
+[10.469475] (robot_serial) StdoutLine: {'line': b'running install_lib\n'}
+[10.475531] (robot_serial) StdoutLine: {'line': b'running install_data\n'}
+[10.477768] (robot_serial) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.488505] (robot_serial) StdoutLine: {'line': b"removing '/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.491184] (robot_serial) StdoutLine: {'line': b'Copying ../../build/robot_serial/robot_serial.egg-info to /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial-0.0.0-py3.10.egg-info\n'}
+[10.504167] (robot_serial) StdoutLine: {'line': b'running install_scripts\n'}
+[10.554937] (motor_gui_pkg) StdoutLine: {'line': b'Installing motor_gui script to /home/pi/ros2_ws/install/motor_gui_pkg/lib/motor_gui_pkg\n'}
+[10.559842] (motor_gui_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros2_ws/build/motor_gui_pkg/install.log'\n"}
+[10.561674] (-) TimerEvent: {}
+[10.625526] (robot_serial) StdoutLine: {'line': b'Installing find script to /home/pi/ros2_ws/install/robot_serial/lib/robot_serial\n'}
+[10.638590] (robot_serial) StdoutLine: {'line': b'Installing serial script to /home/pi/ros2_ws/install/robot_serial/lib/robot_serial\n'}
+[10.643730] (robot_serial) StdoutLine: {'line': b'Installing serial_salida script to /home/pi/ros2_ws/install/robot_serial/lib/robot_serial\n'}
+[10.649400] (robot_serial) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros2_ws/build/robot_serial/install.log'\n"}
+[10.662077] (-) TimerEvent: {}
+[10.750859] (motor_gui_pkg) CommandEnded: {'returncode': 0}
+[10.772572] (-) TimerEvent: {}
+[10.840010] (motor_gui_pkg) JobEnded: {'identifier': 'motor_gui_pkg', 'rc': 0}
+[10.849913] (robot_serial) CommandEnded: {'returncode': 0}
+[10.873204] (-) TimerEvent: {}
+[10.894176] (robot_serial) JobEnded: {'identifier': 'robot_serial', 'rc': 0}
+[10.973500] (-) TimerEvent: {}
+[11.075395] (-) TimerEvent: {}
+[11.176209] (-) TimerEvent: {}
+[11.277128] (-) TimerEvent: {}
+[11.377979] (-) TimerEvent: {}
+[11.478833] (-) TimerEvent: {}
+[11.579750] (-) TimerEvent: {}
+[11.680547] (-) TimerEvent: {}
+[11.781588] (-) TimerEvent: {}
+[11.882401] (-) TimerEvent: {}
+[11.983295] (-) TimerEvent: {}
+[12.084183] (-) TimerEvent: {}
+[12.185058] (-) TimerEvent: {}
+[12.286061] (-) TimerEvent: {}
+[12.386911] (-) TimerEvent: {}
+[12.487725] (-) TimerEvent: {}
+[12.588556] (-) TimerEvent: {}
+[12.689361] (-) TimerEvent: {}
+[12.790167] (-) TimerEvent: {}
+[12.890986] (-) TimerEvent: {}
+[12.991823] (-) TimerEvent: {}
+[13.092714] (-) TimerEvent: {}
+[13.193522] (-) TimerEvent: {}
+[13.294334] (-) TimerEvent: {}
+[13.395178] (-) TimerEvent: {}
+[13.496019] (-) TimerEvent: {}
+[13.596877] (-) TimerEvent: {}
+[13.697697] (-) TimerEvent: {}
+[13.798533] (-) TimerEvent: {}
+[13.899352] (-) TimerEvent: {}
+[14.000192] (-) TimerEvent: {}
+[14.101182] (-) TimerEvent: {}
+[14.202195] (-) TimerEvent: {}
+[14.303000] (-) TimerEvent: {}
+[14.403827] (-) TimerEvent: {}
+[14.504656] (-) TimerEvent: {}
+[14.605459] (-) TimerEvent: {}
+[14.706252] (-) TimerEvent: {}
+[14.807074] (-) TimerEvent: {}
+[14.907894] (-) TimerEvent: {}
+[15.008730] (-) TimerEvent: {}
+[15.109643] (-) TimerEvent: {}
+[15.210543] (-) TimerEvent: {}
+[15.311507] (-) TimerEvent: {}
+[15.412343] (-) TimerEvent: {}
+[15.513178] (-) TimerEvent: {}
+[15.613998] (-) TimerEvent: {}
+[15.714820] (-) TimerEvent: {}
+[15.815642] (-) TimerEvent: {}
+[15.916494] (-) TimerEvent: {}
+[16.017276] (-) TimerEvent: {}
+[16.118094] (-) TimerEvent: {}
+[16.218976] (-) TimerEvent: {}
+[16.319789] (-) TimerEvent: {}
+[16.420572] (-) TimerEvent: {}
+[16.521382] (-) TimerEvent: {}
+[16.537909] (jsc_mecanum_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ros2_ws/src/jsc_mecanum_controller/src/jsc_mecanum_drive_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual controller_interface::return_type jsc::mecanumbot::controller::MecanumbotDriveController::update(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.538855] (jsc_mecanum_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ros2_ws/src/jsc_mecanum_controller/src/jsc_mecanum_drive_controller.cpp:60:90:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.539387] (jsc_mecanum_controller) StderrLine: {'line': b'   60 | controller_interface::return_type MecanumbotDriveController::update(\x1b[01;35m\x1b[Kconst rclcpp::Time & time\x1b[m\x1b[K, const rclcpp::Duration & period)\n'}
+[16.539858] (jsc_mecanum_controller) StderrLine: {'line': b'      |                                                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[16.540321] (jsc_mecanum_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ros2_ws/src/jsc_mecanum_controller/src/jsc_mecanum_drive_controller.cpp:60:121:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.540943] (jsc_mecanum_controller) StderrLine: {'line': b'   60 | _interface::return_type MecanumbotDriveController::update(const rclcpp::Time & time, \x1b[01;35m\x1b[Kconst rclcpp::Duration & period\x1b[m\x1b[K)\n'}
+[16.541412] (jsc_mecanum_controller) StderrLine: {'line': b'      |                                                                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[16.541873] (jsc_mecanum_controller) StderrLine: {'line': b'\n'}
+[16.621586] (-) TimerEvent: {}
+[16.722393] (-) TimerEvent: {}
+[16.823204] (-) TimerEvent: {}
+[16.924033] (-) TimerEvent: {}
+[17.024855] (-) TimerEvent: {}
+[17.125685] (-) TimerEvent: {}
+[17.226544] (-) TimerEvent: {}
+[17.327331] (-) TimerEvent: {}
+[17.428172] (-) TimerEvent: {}
+[17.529031] (-) TimerEvent: {}
+[17.629839] (-) TimerEvent: {}
+[17.730666] (-) TimerEvent: {}
+[17.831622] (-) TimerEvent: {}
+[17.932509] (-) TimerEvent: {}
+[18.033294] (-) TimerEvent: {}
+[18.134105] (-) TimerEvent: {}
+[18.234962] (-) TimerEvent: {}
+[18.335774] (-) TimerEvent: {}
+[18.436560] (-) TimerEvent: {}
+[18.537360] (-) TimerEvent: {}
+[18.638202] (-) TimerEvent: {}
+[18.739037] (-) TimerEvent: {}
+[18.839830] (-) TimerEvent: {}
+[18.940654] (-) TimerEvent: {}
+[19.041434] (-) TimerEvent: {}
+[19.142220] (-) TimerEvent: {}
+[19.243092] (-) TimerEvent: {}
+[19.343926] (-) TimerEvent: {}
+[19.445003] (-) TimerEvent: {}
+[19.545814] (-) TimerEvent: {}
+[19.646632] (-) TimerEvent: {}
+[19.747439] (-) TimerEvent: {}
+[19.848256] (-) TimerEvent: {}
+[19.949137] (-) TimerEvent: {}
+[20.050030] (-) TimerEvent: {}
+[20.150835] (-) TimerEvent: {}
+[20.251648] (-) TimerEvent: {}
+[20.352490] (-) TimerEvent: {}
+[20.453275] (-) TimerEvent: {}
+[20.554090] (-) TimerEvent: {}
+[20.654971] (-) TimerEvent: {}
+[20.755838] (-) TimerEvent: {}
+[20.856680] (-) TimerEvent: {}
+[20.957503] (-) TimerEvent: {}
+[21.058324] (-) TimerEvent: {}
+[21.159150] (-) TimerEvent: {}
+[21.259952] (-) TimerEvent: {}
+[21.360769] (-) TimerEvent: {}
+[21.461536] (-) TimerEvent: {}
+[21.562333] (-) TimerEvent: {}
+[21.663184] (-) TimerEvent: {}
+[21.764191] (-) TimerEvent: {}
+[21.865023] (-) TimerEvent: {}
+[21.965839] (-) TimerEvent: {}
+[22.066687] (-) TimerEvent: {}
+[22.167494] (-) TimerEvent: {}
+[22.268336] (-) TimerEvent: {}
+[22.369199] (-) TimerEvent: {}
+[22.470009] (-) TimerEvent: {}
+[22.570844] (-) TimerEvent: {}
+[22.671679] (-) TimerEvent: {}
+[22.772561] (-) TimerEvent: {}
+[22.873496] (-) TimerEvent: {}
+[22.974408] (-) TimerEvent: {}
+[23.075300] (-) TimerEvent: {}
+[23.176307] (-) TimerEvent: {}
+[23.277195] (-) TimerEvent: {}
+[23.378004] (-) TimerEvent: {}
+[23.478832] (-) TimerEvent: {}
+[23.579639] (-) TimerEvent: {}
+[23.680497] (-) TimerEvent: {}
+[23.781316] (-) TimerEvent: {}
+[23.882135] (-) TimerEvent: {}
+[23.982972] (-) TimerEvent: {}
+[24.083783] (-) TimerEvent: {}
+[24.184622] (-) TimerEvent: {}
+[24.285428] (-) TimerEvent: {}
+[24.386221] (-) TimerEvent: {}
+[24.487063] (-) TimerEvent: {}
+[24.587856] (-) TimerEvent: {}
+[24.688618] (-) TimerEvent: {}
+[24.789347] (-) TimerEvent: {}
+[24.890095] (-) TimerEvent: {}
+[24.990968] (-) TimerEvent: {}
+[25.091993] (-) TimerEvent: {}
+[25.192833] (-) TimerEvent: {}
+[25.293648] (-) TimerEvent: {}
+[25.394461] (-) TimerEvent: {}
+[25.495330] (-) TimerEvent: {}
+[25.596271] (-) TimerEvent: {}
+[25.697153] (-) TimerEvent: {}
+[25.798168] (-) TimerEvent: {}
+[25.899055] (-) TimerEvent: {}
+[26.000404] (-) TimerEvent: {}
+[26.101215] (-) TimerEvent: {}
+[26.202032] (-) TimerEvent: {}
+[26.302844] (-) TimerEvent: {}
+[26.403635] (-) TimerEvent: {}
+[26.504529] (-) TimerEvent: {}
+[26.605536] (-) TimerEvent: {}
+[26.706562] (-) TimerEvent: {}
+[26.807508] (-) TimerEvent: {}
+[26.908414] (-) TimerEvent: {}
+[27.009234] (-) TimerEvent: {}
+[27.110105] (-) TimerEvent: {}
+[27.210886] (-) TimerEvent: {}
+[27.311696] (-) TimerEvent: {}
+[27.412661] (-) TimerEvent: {}
+[27.513463] (-) TimerEvent: {}
+[27.614306] (-) TimerEvent: {}
+[27.715506] (-) TimerEvent: {}
+[27.816314] (-) TimerEvent: {}
+[27.917171] (-) TimerEvent: {}
+[28.017992] (-) TimerEvent: {}
+[28.118794] (-) TimerEvent: {}
+[28.219681] (-) TimerEvent: {}
+[28.320510] (-) TimerEvent: {}
+[28.421308] (-) TimerEvent: {}
+[28.522127] (-) TimerEvent: {}
+[28.622963] (-) TimerEvent: {}
+[28.723792] (-) TimerEvent: {}
+[28.824672] (-) TimerEvent: {}
+[28.925469] (-) TimerEvent: {}
+[29.026251] (-) TimerEvent: {}
+[29.127059] (-) TimerEvent: {}
+[29.227983] (-) TimerEvent: {}
+[29.328812] (-) TimerEvent: {}
+[29.429599] (-) TimerEvent: {}
+[29.530397] (-) TimerEvent: {}
+[29.631265] (-) TimerEvent: {}
+[29.732058] (-) TimerEvent: {}
+[29.832966] (-) TimerEvent: {}
+[29.933742] (-) TimerEvent: {}
+[30.034532] (-) TimerEvent: {}
+[30.135340] (-) TimerEvent: {}
+[30.236122] (-) TimerEvent: {}
+[30.336922] (-) TimerEvent: {}
+[30.437723] (-) TimerEvent: {}
+[30.538507] (-) TimerEvent: {}
+[30.639335] (-) TimerEvent: {}
+[30.740126] (-) TimerEvent: {}
+[30.840979] (-) TimerEvent: {}
+[30.941789] (-) TimerEvent: {}
+[31.042629] (-) TimerEvent: {}
+[31.143422] (-) TimerEvent: {}
+[31.244272] (-) TimerEvent: {}
+[31.345065] (-) TimerEvent: {}
+[31.445842] (-) TimerEvent: {}
+[31.546663] (-) TimerEvent: {}
+[31.647521] (-) TimerEvent: {}
+[31.748342] (-) TimerEvent: {}
+[31.849359] (-) TimerEvent: {}
+[31.950139] (-) TimerEvent: {}
+[32.050958] (-) TimerEvent: {}
+[32.151816] (-) TimerEvent: {}
+[32.252820] (-) TimerEvent: {}
+[32.353614] (-) TimerEvent: {}
+[32.454417] (-) TimerEvent: {}
+[32.555281] (-) TimerEvent: {}
+[32.656057] (-) TimerEvent: {}
+[32.756868] (-) TimerEvent: {}
+[32.857687] (-) TimerEvent: {}
+[32.958484] (-) TimerEvent: {}
+[33.059292] (-) TimerEvent: {}
+[33.160114] (-) TimerEvent: {}
+[33.260933] (-) TimerEvent: {}
+[33.361754] (-) TimerEvent: {}
+[33.462558] (-) TimerEvent: {}
+[33.563365] (-) TimerEvent: {}
+[33.664174] (-) TimerEvent: {}
+[33.765040] (-) TimerEvent: {}
+[33.866124] (-) TimerEvent: {}
+[33.966962] (-) TimerEvent: {}
+[34.067771] (-) TimerEvent: {}
+[34.168607] (-) TimerEvent: {}
+[34.276160] (-) TimerEvent: {}
+[34.377176] (-) TimerEvent: {}
+[34.477992] (-) TimerEvent: {}
+[34.578853] (-) TimerEvent: {}
+[34.679664] (-) TimerEvent: {}
+[34.780491] (-) TimerEvent: {}
+[34.881321] (-) TimerEvent: {}
+[34.982136] (-) TimerEvent: {}
+[35.082939] (-) TimerEvent: {}
+[35.183767] (-) TimerEvent: {}
+[35.284595] (-) TimerEvent: {}
+[35.385357] (-) TimerEvent: {}
+[35.486126] (-) TimerEvent: {}
+[35.586902] (-) TimerEvent: {}
+[35.687718] (-) TimerEvent: {}
+[35.788528] (-) TimerEvent: {}
+[35.889298] (-) TimerEvent: {}
+[35.990074] (-) TimerEvent: {}
+[36.090905] (-) TimerEvent: {}
+[36.191714] (-) TimerEvent: {}
+[36.292513] (-) TimerEvent: {}
+[36.393284] (-) TimerEvent: {}
+[36.494041] (-) TimerEvent: {}
+[36.594873] (-) TimerEvent: {}
+[36.695682] (-) TimerEvent: {}
+[36.796555] (-) TimerEvent: {}
+[36.897327] (-) TimerEvent: {}
+[36.998102] (-) TimerEvent: {}
+[37.098905] (-) TimerEvent: {}
+[37.199720] (-) TimerEvent: {}
+[37.300553] (-) TimerEvent: {}
+[37.401358] (-) TimerEvent: {}
+[37.502149] (-) TimerEvent: {}
+[37.602948] (-) TimerEvent: {}
+[37.703732] (-) TimerEvent: {}
+[37.804579] (-) TimerEvent: {}
+[37.905589] (-) TimerEvent: {}
+[38.006958] (-) TimerEvent: {}
+[38.107994] (-) TimerEvent: {}
+[38.209123] (-) TimerEvent: {}
+[38.310275] (-) TimerEvent: {}
+[38.411086] (-) TimerEvent: {}
+[38.511861] (-) TimerEvent: {}
+[38.612687] (-) TimerEvent: {}
+[38.713461] (-) TimerEvent: {}
+[38.814229] (-) TimerEvent: {}
+[38.915025] (-) TimerEvent: {}
+[39.015846] (-) TimerEvent: {}
+[39.116693] (-) TimerEvent: {}
+[39.217475] (-) TimerEvent: {}
+[39.318273] (-) TimerEvent: {}
+[39.419132] (-) TimerEvent: {}
+[39.519925] (-) TimerEvent: {}
+[39.620747] (-) TimerEvent: {}
+[39.721529] (-) TimerEvent: {}
+[39.822328] (-) TimerEvent: {}
+[39.923168] (-) TimerEvent: {}
+[40.023970] (-) TimerEvent: {}
+[40.124852] (-) TimerEvent: {}
+[40.225679] (-) TimerEvent: {}
+[40.328552] (-) TimerEvent: {}
+[40.430763] (-) TimerEvent: {}
+[40.540657] (-) TimerEvent: {}
+[40.642844] (-) TimerEvent: {}
+[40.748865] (-) TimerEvent: {}
+[40.849699] (-) TimerEvent: {}
+[40.950631] (-) TimerEvent: {}
+[41.051587] (-) TimerEvent: {}
+[41.152422] (-) TimerEvent: {}
+[41.253184] (-) TimerEvent: {}
+[41.268726] (jsc_mecanum_controller) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libjsc_mecanum_controller.so\x1b[0m\n'}
+[41.353380] (-) TimerEvent: {}
+[41.454386] (-) TimerEvent: {}
+[41.555327] (-) TimerEvent: {}
+[41.656196] (-) TimerEvent: {}
+[41.757691] (-) TimerEvent: {}
+[41.858959] (-) TimerEvent: {}
+[41.960011] (-) TimerEvent: {}
+[42.061372] (-) TimerEvent: {}
+[42.162188] (-) TimerEvent: {}
+[42.263006] (-) TimerEvent: {}
+[42.363795] (-) TimerEvent: {}
+[42.464697] (-) TimerEvent: {}
+[42.565615] (-) TimerEvent: {}
+[42.666537] (-) TimerEvent: {}
+[42.767853] (-) TimerEvent: {}
+[42.869190] (-) TimerEvent: {}
+[42.970092] (-) TimerEvent: {}
+[43.071159] (-) TimerEvent: {}
+[43.172534] (-) TimerEvent: {}
+[43.273668] (-) TimerEvent: {}
+[43.374741] (-) TimerEvent: {}
+[43.475979] (-) TimerEvent: {}
+[43.577052] (-) TimerEvent: {}
+[43.678254] (-) TimerEvent: {}
+[43.779187] (-) TimerEvent: {}
+[43.880119] (-) TimerEvent: {}
+[43.981162] (-) TimerEvent: {}
+[44.082260] (-) TimerEvent: {}
+[44.182989] (-) TimerEvent: {}
+[44.283717] (-) TimerEvent: {}
+[44.384492] (-) TimerEvent: {}
+[44.485454] (-) TimerEvent: {}
+[44.586267] (-) TimerEvent: {}
+[44.687031] (-) TimerEvent: {}
+[44.787895] (-) TimerEvent: {}
+[44.852685] (jsc_mecanum_controller) StdoutLine: {'line': b'[100%] Built target jsc_mecanum_controller\n'}
+[44.888125] (-) TimerEvent: {}
+[44.899600] (jsc_mecanum_controller) CommandEnded: {'returncode': 0}
+[44.988338] (-) TimerEvent: {}
+[45.079489] (jsc_mecanum_controller) JobProgress: {'identifier': 'jsc_mecanum_controller', 'progress': 'install'}
+[45.087345] (jsc_mecanum_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ros2_ws/build/jsc_mecanum_controller'], 'cwd': '/home/pi/ros2_ws/build/jsc_mecanum_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.1.50 57212 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib:/home/pi/ros2_ws/install/jsc_mecanum_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ros2_ws/build/jsc_mecanum_controller'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.50 57212 192.168.1.55 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble')]), 'shell': False}
+[45.091232] (-) TimerEvent: {}
+[45.122923] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[45.126745] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[45.128597] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller//jsc_mecanum_controller.xml\n'}
+[45.131633] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/lib/libjsc_mecanum_controller.so\n'}
+[45.134353] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/include/include/jsc_mecanum_controller/jsc_mecanum_controller_compiler.h\n'}
+[45.135359] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/include/include/jsc_mecanum_controller/jsc_mecanum_drive_controller.hpp\n'}
+[45.136309] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/include/include/jsc_mecanum_controller/jsc_mecanum_wheel.hpp\n'}
+[45.137634] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/environment/library_path.sh\n'}
+[45.138765] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/environment/library_path.dsv\n'}
+[45.140166] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/ament_index/resource_index/package_run_dependencies/jsc_mecanum_controller\n'}
+[45.141610] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/ament_index/resource_index/parent_prefix_path/jsc_mecanum_controller\n'}
+[45.142834] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/environment/ament_prefix_path.sh\n'}
+[45.143956] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/environment/ament_prefix_path.dsv\n'}
+[45.145505] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/environment/path.sh\n'}
+[45.146601] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/environment/path.dsv\n'}
+[45.147629] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/local_setup.bash\n'}
+[45.148675] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/local_setup.sh\n'}
+[45.149684] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/local_setup.zsh\n'}
+[45.150689] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/local_setup.dsv\n'}
+[45.151344] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/package.dsv\n'}
+[45.188912] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/ament_index/resource_index/packages/jsc_mecanum_controller\n'}
+[45.190192] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/jsc_mecanum_controller\n'}
+[45.191439] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[45.191969] (-) TimerEvent: {}
+[45.192925] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[45.194158] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[45.195472] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/cmake/jsc_mecanum_controllerConfig.cmake\n'}
+[45.197135] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/cmake/jsc_mecanum_controllerConfig-version.cmake\n'}
+[45.199093] (jsc_mecanum_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/package.xml\n'}
+[45.205787] (jsc_mecanum_controller) CommandEnded: {'returncode': 0}
+[45.292212] (-) TimerEvent: {}
+[45.392984] (-) TimerEvent: {}
+[45.482512] (jsc_mecanum_controller) JobEnded: {'identifier': 'jsc_mecanum_controller', 'rc': 0}
+[45.486390] (-) EventReactorShutdown: {}

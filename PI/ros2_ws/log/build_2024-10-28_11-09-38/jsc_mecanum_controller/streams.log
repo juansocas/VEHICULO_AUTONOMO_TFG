@@ -1,0 +1,42 @@
+[0.126s] Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_controller -- -j4 -l4
+[0.506s] [ 33%] [32mBuilding CXX object CMakeFiles/jsc_mecanum_controller.dir/src/jsc_mecanum_drive_controller.cpp.o[0m
+[16.520s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_controller/src/jsc_mecanum_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type jsc::mecanumbot::controller::MecanumbotDriveController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[16.521s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_controller/src/jsc_mecanum_drive_controller.cpp:60:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[16.522s]    60 | controller_interface::return_type MecanumbotDriveController::update([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[16.523s]       |                                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[16.523s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_controller/src/jsc_mecanum_drive_controller.cpp:60:121:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[16.524s]    60 | controller_interface::return_type MecanumbotDriveController::update(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[16.525s]       |                                                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[43.049s] [ 66%] [32m[1mLinking CXX shared library libjsc_mecanum_controller.so[0m
+[46.424s] [100%] Built target jsc_mecanum_controller
+[46.470s] Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_controller -- -j4 -l4
+[46.649s] Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_controller
+[46.680s] -- Install configuration: ""
+[46.682s] -- Execute custom install script
+[46.683s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller//jsc_mecanum_controller.xml
+[46.684s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/lib/libjsc_mecanum_controller.so
+[46.687s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/include/include/jsc_mecanum_controller/jsc_mecanum_controller_compiler.h
+[46.687s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/include/include/jsc_mecanum_controller/jsc_mecanum_drive_controller.hpp
+[46.688s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/include/include/jsc_mecanum_controller/jsc_mecanum_wheel.hpp
+[46.690s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/environment/library_path.sh
+[46.691s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/environment/library_path.dsv
+[46.692s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/ament_index/resource_index/package_run_dependencies/jsc_mecanum_controller
+[46.693s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/ament_index/resource_index/parent_prefix_path/jsc_mecanum_controller
+[46.695s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/environment/ament_prefix_path.sh
+[46.696s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/environment/ament_prefix_path.dsv
+[46.697s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/environment/path.sh
+[46.698s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/environment/path.dsv
+[46.699s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/local_setup.bash
+[46.700s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/local_setup.sh
+[46.701s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/local_setup.zsh
+[46.702s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/local_setup.dsv
+[46.703s] -- Symlinking: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/package.dsv
+[46.740s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/ament_index/resource_index/packages/jsc_mecanum_controller
+[46.742s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/jsc_mecanum_controller
+[46.743s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[46.744s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[46.745s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[46.746s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/cmake/jsc_mecanum_controllerConfig.cmake
+[46.747s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/cmake/jsc_mecanum_controllerConfig-version.cmake
+[46.748s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/package.xml
+[46.757s] Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_controller

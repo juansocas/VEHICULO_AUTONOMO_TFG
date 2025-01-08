@@ -1,0 +1,589 @@
+[0.644s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.645s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff88a2bbb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8896c7f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8896c7f0>>)
+[2.013s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.013s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.015s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi/ros2_ws'
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_bringup) by extension 'ignore'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_bringup) by extension 'ignore_ament_install'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_bringup) by extensions ['colcon_pkg']
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_bringup) by extension 'colcon_pkg'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_bringup) by extensions ['colcon_meta']
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_bringup) by extension 'colcon_meta'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_bringup) by extensions ['ros']
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_bringup) by extension 'ros'
+[2.120s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jsc_mecanum_bringup' with type 'ros.ament_cmake' and name 'jsc_mecanum_bringup'
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_control) by extensions ['ignore', 'ignore_ament_install']
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_control) by extension 'ignore'
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_control) by extension 'ignore_ament_install'
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_control) by extensions ['colcon_pkg']
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_control) by extension 'colcon_pkg'
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_control) by extensions ['colcon_meta']
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_control) by extension 'colcon_meta'
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_control) by extensions ['ros']
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_control) by extension 'ros'
+[2.128s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jsc_mecanum_control' with type 'ros.ament_cmake' and name 'jsc_mecanum_control'
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_controller) by extensions ['ignore', 'ignore_ament_install']
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_controller) by extension 'ignore'
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_controller) by extension 'ignore_ament_install'
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_controller) by extensions ['colcon_pkg']
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_controller) by extension 'colcon_pkg'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_controller) by extensions ['colcon_meta']
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_controller) by extension 'colcon_meta'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_controller) by extensions ['ros']
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_controller) by extension 'ros'
+[2.136s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jsc_mecanum_controller' with type 'ros.ament_cmake' and name 'jsc_mecanum_controller'
+[2.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_description) by extensions ['ignore', 'ignore_ament_install']
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_description) by extension 'ignore'
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_description) by extension 'ignore_ament_install'
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_description) by extensions ['colcon_pkg']
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_description) by extension 'colcon_pkg'
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_description) by extensions ['colcon_meta']
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_description) by extension 'colcon_meta'
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_description) by extensions ['ros']
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_description) by extension 'ros'
+[2.145s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jsc_mecanum_description' with type 'ros.ament_cmake' and name 'jsc_mecanum_description'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_hardware) by extensions ['ignore', 'ignore_ament_install']
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_hardware) by extension 'ignore'
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_hardware) by extension 'ignore_ament_install'
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_hardware) by extensions ['colcon_pkg']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_hardware) by extension 'colcon_pkg'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_hardware) by extensions ['colcon_meta']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_hardware) by extension 'colcon_meta'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_hardware) by extensions ['ros']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_hardware) by extension 'ros'
+[2.151s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jsc_mecanum_hardware' with type 'ros.ament_cmake' and name 'jsc_mecanum_hardware'
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_teleop) by extensions ['ignore', 'ignore_ament_install']
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_teleop) by extension 'ignore'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_teleop) by extension 'ignore_ament_install'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_teleop) by extensions ['colcon_pkg']
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_teleop) by extension 'colcon_pkg'
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_teleop) by extensions ['colcon_meta']
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_teleop) by extension 'colcon_meta'
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_teleop) by extensions ['ros']
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/jsc_mecanum_teleop) by extension 'ros'
+[2.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jsc_mecanum_teleop' with type 'ros.ament_cmake' and name 'jsc_mecanum_teleop'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serial) by extensions ['ignore', 'ignore_ament_install']
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serial) by extension 'ignore'
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serial) by extension 'ignore_ament_install'
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serial) by extensions ['colcon_pkg']
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serial) by extension 'colcon_pkg'
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serial) by extensions ['colcon_meta']
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serial) by extension 'colcon_meta'
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serial) by extensions ['ros']
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serial) by extension 'ros'
+[2.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_serial' with type 'ros.ament_python' and name 'robot_serial'
+[2.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[2.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[2.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[2.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[2.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.356s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/pi/ros2_ws/install
+[2.368s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 290 installed packages in /opt/ros/humble
+[2.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.595s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_control' build argument 'cmake_args' from command line to 'None'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_control' build argument 'cmake_target' from command line to 'None'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_control' build argument 'cmake_clean_cache' from command line to 'False'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_control' build argument 'cmake_clean_first' from command line to 'False'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_control' build argument 'cmake_force_configure' from command line to 'False'
+[2.596s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_control' build argument 'ament_cmake_args' from command line to 'None'
+[2.597s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_control' build argument 'catkin_cmake_args' from command line to 'None'
+[2.597s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.597s] DEBUG:colcon.colcon_core.verb:Building package 'jsc_mecanum_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ros2_ws/build/jsc_mecanum_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ros2_ws/install/jsc_mecanum_control', 'merge_install': False, 'path': '/home/pi/ros2_ws/src/jsc_mecanum_control', 'symlink_install': False, 'test_result_base': None}
+[2.599s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_controller' build argument 'cmake_args' from command line to 'None'
+[2.599s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_controller' build argument 'cmake_target' from command line to 'None'
+[2.599s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.599s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[2.599s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_controller' build argument 'cmake_clean_first' from command line to 'False'
+[2.599s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_controller' build argument 'cmake_force_configure' from command line to 'False'
+[2.600s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_controller' build argument 'ament_cmake_args' from command line to 'None'
+[2.600s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[2.600s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.600s] DEBUG:colcon.colcon_core.verb:Building package 'jsc_mecanum_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ros2_ws/build/jsc_mecanum_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ros2_ws/install/jsc_mecanum_controller', 'merge_install': False, 'path': '/home/pi/ros2_ws/src/jsc_mecanum_controller', 'symlink_install': False, 'test_result_base': None}
+[2.602s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_description' build argument 'cmake_args' from command line to 'None'
+[2.602s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_description' build argument 'cmake_target' from command line to 'None'
+[2.602s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.602s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_description' build argument 'cmake_clean_cache' from command line to 'False'
+[2.602s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_description' build argument 'cmake_clean_first' from command line to 'False'
+[2.602s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_description' build argument 'cmake_force_configure' from command line to 'False'
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_description' build argument 'ament_cmake_args' from command line to 'None'
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_description' build argument 'catkin_cmake_args' from command line to 'None'
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.603s] DEBUG:colcon.colcon_core.verb:Building package 'jsc_mecanum_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ros2_ws/build/jsc_mecanum_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ros2_ws/install/jsc_mecanum_description', 'merge_install': False, 'path': '/home/pi/ros2_ws/src/jsc_mecanum_description', 'symlink_install': False, 'test_result_base': None}
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_hardware' build argument 'cmake_args' from command line to 'None'
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_hardware' build argument 'cmake_target' from command line to 'None'
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[2.606s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[2.606s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.606s] DEBUG:colcon.colcon_core.verb:Building package 'jsc_mecanum_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ros2_ws/build/jsc_mecanum_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ros2_ws/install/jsc_mecanum_hardware', 'merge_install': False, 'path': '/home/pi/ros2_ws/src/jsc_mecanum_hardware', 'symlink_install': False, 'test_result_base': None}
+[2.608s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_teleop' build argument 'cmake_args' from command line to 'None'
+[2.608s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_teleop' build argument 'cmake_target' from command line to 'None'
+[2.608s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.608s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[2.608s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[2.608s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[2.608s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[2.608s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[2.609s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.609s] DEBUG:colcon.colcon_core.verb:Building package 'jsc_mecanum_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ros2_ws/build/jsc_mecanum_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ros2_ws/install/jsc_mecanum_teleop', 'merge_install': False, 'path': '/home/pi/ros2_ws/src/jsc_mecanum_teleop', 'symlink_install': False, 'test_result_base': None}
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'robot_serial' build argument 'cmake_args' from command line to 'None'
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'robot_serial' build argument 'cmake_target' from command line to 'None'
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'robot_serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'robot_serial' build argument 'cmake_clean_cache' from command line to 'False'
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'robot_serial' build argument 'cmake_clean_first' from command line to 'False'
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'robot_serial' build argument 'cmake_force_configure' from command line to 'False'
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'robot_serial' build argument 'ament_cmake_args' from command line to 'None'
+[2.612s] Level 5:colcon.colcon_core.verb:set package 'robot_serial' build argument 'catkin_cmake_args' from command line to 'None'
+[2.612s] Level 5:colcon.colcon_core.verb:set package 'robot_serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.612s] DEBUG:colcon.colcon_core.verb:Building package 'robot_serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ros2_ws/build/robot_serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ros2_ws/install/robot_serial', 'merge_install': False, 'path': '/home/pi/ros2_ws/src/robot_serial', 'symlink_install': False, 'test_result_base': None}
+[2.614s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[2.614s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[2.614s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.614s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.614s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[2.614s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[2.614s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[2.615s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.615s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.615s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ros2_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ros2_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/pi/ros2_ws/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_bringup' build argument 'cmake_args' from command line to 'None'
+[2.617s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_bringup' build argument 'cmake_target' from command line to 'None'
+[2.617s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.617s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.617s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.617s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.617s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.618s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.618s] Level 5:colcon.colcon_core.verb:set package 'jsc_mecanum_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.618s] DEBUG:colcon.colcon_core.verb:Building package 'jsc_mecanum_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ros2_ws/build/jsc_mecanum_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ros2_ws/install/jsc_mecanum_bringup', 'merge_install': False, 'path': '/home/pi/ros2_ws/src/jsc_mecanum_bringup', 'symlink_install': False, 'test_result_base': None}
+[2.618s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.622s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.623s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/ros2_ws/src/jsc_mecanum_description' with build type 'ament_cmake'
+[2.624s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/ros2_ws/src/jsc_mecanum_description'
+[2.644s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.645s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.645s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.674s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/ros2_ws/src/jsc_mecanum_control' with build type 'ament_cmake'
+[2.674s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/ros2_ws/src/jsc_mecanum_control'
+[2.676s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.676s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.702s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/ros2_ws/src/jsc_mecanum_controller' with build type 'ament_cmake'
+[2.703s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/ros2_ws/src/jsc_mecanum_controller'
+[2.704s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.704s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.730s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/ros2_ws/src/jsc_mecanum_hardware' with build type 'ament_cmake'
+[2.731s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/ros2_ws/src/jsc_mecanum_hardware'
+[2.732s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.732s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_description -- -j4 -l4
+[2.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_control -- -j4 -l4
+[2.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_controller -- -j4 -l4
+[2.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_hardware -- -j4 -l4
+[3.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_description -- -j4 -l4
+[3.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_description
+[3.361s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jsc_mecanum_description)
+[3.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_description
+[3.392s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_description' for CMake module files
+[3.395s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_description' for CMake config files
+[3.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('jsc_mecanum_description', 'cmake_prefix_path')
+[3.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/hook/cmake_prefix_path.ps1'
+[3.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/hook/cmake_prefix_path.dsv'
+[3.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/hook/cmake_prefix_path.sh'
+[3.415s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_description/bin'
+[3.416s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_description/lib/pkgconfig/jsc_mecanum_description.pc'
+[3.417s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_description/lib/python3.10/site-packages'
+[3.418s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_description/bin'
+[3.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/package.ps1'
+[3.426s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/package.dsv'
+[3.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/package.sh'
+[3.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/package.bash'
+[3.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/package.zsh'
+[3.445s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/jsc_mecanum_description/share/colcon-core/packages/jsc_mecanum_description)
+[3.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_hardware -- -j4 -l4
+[3.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_control -- -j4 -l4
+[3.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_controller -- -j4 -l4
+[3.612s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jsc_mecanum_description)
+[3.614s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_description' for CMake module files
+[3.619s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_description' for CMake config files
+[3.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('jsc_mecanum_description', 'cmake_prefix_path')
+[3.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/hook/cmake_prefix_path.ps1'
+[3.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/hook/cmake_prefix_path.dsv'
+[3.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/hook/cmake_prefix_path.sh'
+[3.635s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_description/bin'
+[3.635s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_description/lib/pkgconfig/jsc_mecanum_description.pc'
+[3.637s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_description/lib/python3.10/site-packages'
+[3.638s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_description/bin'
+[3.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/package.ps1'
+[3.643s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/package.dsv'
+[3.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/package.sh'
+[3.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/package.bash'
+[3.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/package.zsh'
+[3.654s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/jsc_mecanum_description/share/colcon-core/packages/jsc_mecanum_description)
+[3.659s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/ros2_ws/src/jsc_mecanum_teleop' with build type 'ament_cmake'
+[3.660s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/ros2_ws/src/jsc_mecanum_teleop'
+[3.661s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.662s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_teleop -- -j4 -l4
+[3.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_hardware
+[3.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_control
+[3.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_controller
+[3.863s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jsc_mecanum_hardware)
+[3.864s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_hardware' for CMake module files
+[3.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_hardware
+[3.881s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_hardware' for CMake config files
+[3.884s] Level 1:colcon.colcon_core.shell:create_environment_hook('jsc_mecanum_hardware', 'cmake_prefix_path')
+[3.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/hook/cmake_prefix_path.ps1'
+[3.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/hook/cmake_prefix_path.dsv'
+[3.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/hook/cmake_prefix_path.sh'
+[3.903s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib'
+[3.905s] Level 1:colcon.colcon_core.shell:create_environment_hook('jsc_mecanum_hardware', 'ld_library_path_lib')
+[3.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/hook/ld_library_path_lib.ps1'
+[3.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/hook/ld_library_path_lib.dsv'
+[3.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/hook/ld_library_path_lib.sh'
+[3.926s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_hardware/bin'
+[3.926s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib/pkgconfig/jsc_mecanum_hardware.pc'
+[3.927s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib/python3.10/site-packages'
+[3.932s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_hardware/bin'
+[3.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.ps1'
+[3.938s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.dsv'
+[3.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.sh'
+[3.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.bash'
+[3.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.zsh'
+[3.949s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/colcon-core/packages/jsc_mecanum_hardware)
+[3.965s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jsc_mecanum_control)
+[3.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_control
+[3.969s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_control' for CMake module files
+[3.974s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_control' for CMake config files
+[3.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('jsc_mecanum_control', 'cmake_prefix_path')
+[3.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/hook/cmake_prefix_path.ps1'
+[3.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/hook/cmake_prefix_path.dsv'
+[3.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/hook/cmake_prefix_path.sh'
+[3.986s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_control/lib'
+[3.987s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_control/bin'
+[3.987s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_control/lib/pkgconfig/jsc_mecanum_control.pc'
+[3.988s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_control/lib/python3.10/site-packages'
+[3.990s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_control/bin'
+[3.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/package.ps1'
+[3.994s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/package.dsv'
+[3.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/package.sh'
+[4.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/package.bash'
+[4.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/package.zsh'
+[4.005s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/jsc_mecanum_control/share/colcon-core/packages/jsc_mecanum_control)
+[4.015s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jsc_mecanum_controller)
+[4.016s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_controller' for CMake module files
+[4.020s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_controller' for CMake config files
+[4.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_controller
+[4.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('jsc_mecanum_controller', 'cmake_prefix_path')
+[4.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/hook/cmake_prefix_path.ps1'
+[4.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/hook/cmake_prefix_path.dsv'
+[4.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/hook/cmake_prefix_path.sh'
+[4.034s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_controller/lib'
+[4.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('jsc_mecanum_controller', 'ld_library_path_lib')
+[4.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/hook/ld_library_path_lib.ps1'
+[4.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/hook/ld_library_path_lib.dsv'
+[4.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/hook/ld_library_path_lib.sh'
+[4.045s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_controller/bin'
+[4.045s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_controller/lib/pkgconfig/jsc_mecanum_controller.pc'
+[4.046s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_controller/lib/python3.10/site-packages'
+[4.048s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_controller/bin'
+[4.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/package.ps1'
+[4.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/package.dsv'
+[4.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/package.sh'
+[4.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/package.bash'
+[4.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/package.zsh'
+[4.062s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/jsc_mecanum_controller/share/colcon-core/packages/jsc_mecanum_controller)
+[4.186s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jsc_mecanum_control)
+[4.187s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_control' for CMake module files
+[4.191s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_control' for CMake config files
+[4.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('jsc_mecanum_control', 'cmake_prefix_path')
+[4.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/hook/cmake_prefix_path.ps1'
+[4.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/hook/cmake_prefix_path.dsv'
+[4.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/hook/cmake_prefix_path.sh'
+[4.204s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_control/lib'
+[4.205s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_control/bin'
+[4.205s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_control/lib/pkgconfig/jsc_mecanum_control.pc'
+[4.206s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_control/lib/python3.10/site-packages'
+[4.208s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_control/bin'
+[4.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/package.ps1'
+[4.213s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/package.dsv'
+[4.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/package.sh'
+[4.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/package.bash'
+[4.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_control/share/jsc_mecanum_control/package.zsh'
+[4.223s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/jsc_mecanum_control/share/colcon-core/packages/jsc_mecanum_control)
+[4.226s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/ros2_ws/src/robot_serial' with build type 'ament_python'
+[4.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_serial', 'ament_prefix_path')
+[4.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/robot_serial/share/robot_serial/hook/ament_prefix_path.ps1'
+[4.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/robot_serial/share/robot_serial/hook/ament_prefix_path.dsv'
+[4.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/robot_serial/share/robot_serial/hook/ament_prefix_path.sh'
+[4.238s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.238s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_teleop -- -j4 -l4
+[4.275s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jsc_mecanum_hardware)
+[4.276s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_hardware' for CMake module files
+[4.280s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_hardware' for CMake config files
+[4.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('jsc_mecanum_hardware', 'cmake_prefix_path')
+[4.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/hook/cmake_prefix_path.ps1'
+[4.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/hook/cmake_prefix_path.dsv'
+[4.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/hook/cmake_prefix_path.sh'
+[4.292s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib'
+[4.293s] Level 1:colcon.colcon_core.shell:create_environment_hook('jsc_mecanum_hardware', 'ld_library_path_lib')
+[4.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/hook/ld_library_path_lib.ps1'
+[4.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/hook/ld_library_path_lib.dsv'
+[4.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/hook/ld_library_path_lib.sh'
+[4.301s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_hardware/bin'
+[4.302s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib/pkgconfig/jsc_mecanum_hardware.pc'
+[4.303s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib/python3.10/site-packages'
+[4.304s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_hardware/bin'
+[4.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.ps1'
+[4.309s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.dsv'
+[4.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.sh'
+[4.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.bash'
+[4.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.zsh'
+[4.319s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/jsc_mecanum_hardware/share/colcon-core/packages/jsc_mecanum_hardware)
+[4.322s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jsc_mecanum_controller)
+[4.324s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_controller' for CMake module files
+[4.328s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_controller' for CMake config files
+[4.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('jsc_mecanum_controller', 'cmake_prefix_path')
+[4.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/hook/cmake_prefix_path.ps1'
+[4.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/hook/cmake_prefix_path.dsv'
+[4.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/hook/cmake_prefix_path.sh'
+[4.339s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_controller/lib'
+[4.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('jsc_mecanum_controller', 'ld_library_path_lib')
+[4.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/hook/ld_library_path_lib.ps1'
+[4.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/hook/ld_library_path_lib.dsv'
+[4.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/hook/ld_library_path_lib.sh'
+[4.347s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_controller/bin'
+[4.348s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_controller/lib/pkgconfig/jsc_mecanum_controller.pc'
+[4.349s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_controller/lib/python3.10/site-packages'
+[4.350s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_controller/bin'
+[4.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/package.ps1'
+[4.355s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/package.dsv'
+[4.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/package.sh'
+[4.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/package.bash'
+[4.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_controller/share/jsc_mecanum_controller/package.zsh'
+[4.365s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/jsc_mecanum_controller/share/colcon-core/packages/jsc_mecanum_controller)
+[4.367s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/ros2_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[4.368s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/ros2_ws/src/sllidar_ros2'
+[4.369s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.370s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.397s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/ros2_ws/src/jsc_mecanum_bringup' with build type 'ament_cmake'
+[4.398s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/ros2_ws/src/jsc_mecanum_bringup'
+[4.399s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.400s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.813s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/ros2_ws/src/robot_serial'
+[5.815s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.815s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[5.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_bringup': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_bringup -- -j4 -l4
+[5.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_teleop
+[5.994s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jsc_mecanum_teleop)
+[5.995s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_teleop' for CMake module files
+[5.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_teleop
+[6.000s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_teleop' for CMake config files
+[6.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('jsc_mecanum_teleop', 'cmake_prefix_path')
+[6.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/hook/cmake_prefix_path.ps1'
+[6.008s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/hook/cmake_prefix_path.dsv'
+[6.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/hook/cmake_prefix_path.sh'
+[6.014s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_teleop/lib'
+[6.015s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_teleop/bin'
+[6.016s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_teleop/lib/pkgconfig/jsc_mecanum_teleop.pc'
+[6.018s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_teleop/lib/python3.10/site-packages'
+[6.020s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_teleop/bin'
+[6.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/package.ps1'
+[6.024s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/package.dsv'
+[6.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/package.sh'
+[6.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/package.bash'
+[6.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/package.zsh'
+[6.035s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/jsc_mecanum_teleop/share/colcon-core/packages/jsc_mecanum_teleop)
+[6.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_bringup' returned '0': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_bringup -- -j4 -l4
+[6.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_bringup': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_bringup
+[6.496s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jsc_mecanum_teleop)
+[6.503s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_teleop' for CMake module files
+[6.517s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_teleop' for CMake config files
+[6.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('jsc_mecanum_teleop', 'cmake_prefix_path')
+[6.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/hook/cmake_prefix_path.ps1'
+[6.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/hook/cmake_prefix_path.dsv'
+[6.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/hook/cmake_prefix_path.sh'
+[6.577s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_teleop/lib'
+[6.578s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_teleop/bin'
+[6.578s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_teleop/lib/pkgconfig/jsc_mecanum_teleop.pc'
+[6.580s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_teleop/lib/python3.10/site-packages'
+[6.588s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_teleop/bin'
+[6.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/package.ps1'
+[6.597s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/package.dsv'
+[6.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/package.sh'
+[6.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/package.bash'
+[6.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/package.zsh'
+[6.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/jsc_mecanum_teleop/share/colcon-core/packages/jsc_mecanum_teleop)
+[6.616s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jsc_mecanum_bringup)
+[6.618s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_bringup' for CMake module files
+[6.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_bringup' returned '0': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_bringup
+[6.624s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_bringup' for CMake config files
+[6.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('jsc_mecanum_bringup', 'cmake_prefix_path')
+[6.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/hook/cmake_prefix_path.ps1'
+[6.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/hook/cmake_prefix_path.dsv'
+[6.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/hook/cmake_prefix_path.sh'
+[6.636s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_bringup/bin'
+[6.637s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_bringup/lib/pkgconfig/jsc_mecanum_bringup.pc'
+[6.638s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_bringup/lib/python3.10/site-packages'
+[6.640s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_bringup/bin'
+[6.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/package.ps1'
+[6.644s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/package.dsv'
+[6.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/package.sh'
+[6.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/package.bash'
+[6.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/package.zsh'
+[6.655s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/jsc_mecanum_bringup/share/colcon-core/packages/jsc_mecanum_bringup)
+[6.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[6.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jsc_mecanum_bringup)
+[6.845s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_bringup' for CMake module files
+[6.850s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_bringup' for CMake config files
+[6.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('jsc_mecanum_bringup', 'cmake_prefix_path')
+[6.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/hook/cmake_prefix_path.ps1'
+[6.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/hook/cmake_prefix_path.dsv'
+[6.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/hook/cmake_prefix_path.sh'
+[6.893s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_bringup/bin'
+[6.894s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_bringup/lib/pkgconfig/jsc_mecanum_bringup.pc'
+[6.896s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_bringup/lib/python3.10/site-packages'
+[6.897s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/jsc_mecanum_bringup/bin'
+[6.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/package.ps1'
+[6.903s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/package.dsv'
+[6.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/package.sh'
+[6.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/package.bash'
+[6.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/package.zsh'
+[6.920s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/jsc_mecanum_bringup/share/colcon-core/packages/jsc_mecanum_bringup)
+[7.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/sllidar_ros2
+[7.402s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[7.404s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/sllidar_ros2' for CMake module files
+[7.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/sllidar_ros2
+[7.410s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/sllidar_ros2' for CMake config files
+[7.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[7.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[7.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[7.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[7.431s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/sllidar_ros2/lib'
+[7.432s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/sllidar_ros2/bin'
+[7.432s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[7.434s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[7.435s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/sllidar_ros2/bin'
+[7.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[7.440s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[7.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[7.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[7.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[7.456s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[8.167s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[8.177s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/sllidar_ros2' for CMake module files
+[8.183s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/sllidar_ros2' for CMake config files
+[8.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[8.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[8.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[8.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[8.198s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/sllidar_ros2/lib'
+[8.199s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/sllidar_ros2/bin'
+[8.200s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[8.202s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[8.204s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/sllidar_ros2/bin'
+[8.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[8.215s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[8.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[8.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[8.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[8.231s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[9.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/src/robot_serial': PYTHONPATH=/home/pi/ros2_ws/build/robot_serial/prefix_override:/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_serial build --build-base /home/pi/ros2_ws/build/robot_serial/build install --record /home/pi/ros2_ws/build/robot_serial/install.log --single-version-externally-managed install_data
+[11.783s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/robot_serial' for CMake module files
+[11.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/src/robot_serial' returned '0': PYTHONPATH=/home/pi/ros2_ws/build/robot_serial/prefix_override:/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_serial build --build-base /home/pi/ros2_ws/build/robot_serial/build install --record /home/pi/ros2_ws/build/robot_serial/install.log --single-version-externally-managed install_data
+[11.787s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/robot_serial' for CMake config files
+[11.792s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/robot_serial/lib'
+[11.793s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/robot_serial/bin'
+[11.793s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/robot_serial/lib/pkgconfig/robot_serial.pc'
+[11.795s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages'
+[11.795s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_serial', 'pythonpath')
+[11.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/robot_serial/share/robot_serial/hook/pythonpath.ps1'
+[11.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/robot_serial/share/robot_serial/hook/pythonpath.dsv'
+[11.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/robot_serial/share/robot_serial/hook/pythonpath.sh'
+[11.804s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/robot_serial/bin'
+[11.805s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_serial)
+[11.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/robot_serial/share/robot_serial/package.ps1'
+[11.809s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/robot_serial/share/robot_serial/package.dsv'
+[11.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/robot_serial/share/robot_serial/package.sh'
+[11.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/robot_serial/share/robot_serial/package.bash'
+[11.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/robot_serial/share/robot_serial/package.zsh'
+[11.817s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/robot_serial/share/colcon-core/packages/robot_serial)
+[11.818s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.820s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.820s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.820s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.849s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[11.849s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.850s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.850s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.854s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[11.854s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.855s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ros2_ws/install/local_setup.ps1'
+[11.862s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/ros2_ws/install/_local_setup_util_ps1.py'
+[11.871s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ros2_ws/install/setup.ps1'
+[11.880s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ros2_ws/install/local_setup.sh'
+[11.883s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/ros2_ws/install/_local_setup_util_sh.py'
+[11.886s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ros2_ws/install/setup.sh'
+[11.894s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ros2_ws/install/local_setup.bash'
+[11.897s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ros2_ws/install/setup.bash'
+[11.905s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ros2_ws/install/local_setup.zsh'
+[11.908s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ros2_ws/install/setup.zsh'

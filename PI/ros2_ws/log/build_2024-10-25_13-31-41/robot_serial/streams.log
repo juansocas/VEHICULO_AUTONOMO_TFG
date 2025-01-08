@@ -1,0 +1,21 @@
+[5.497s] Invoking command in '/home/pi/ros2_ws/build/robot_serial': PYTHONPATH=/home/pi/ros2_ws/build/robot_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/build/robot_serial/build --no-deps symlink_data --force
+[8.654s] running develop
+[11.474s] running egg_info
+[11.476s] writing robot_serial.egg-info/PKG-INFO
+[11.479s] writing dependency_links to robot_serial.egg-info/dependency_links.txt
+[11.482s] writing entry points to robot_serial.egg-info/entry_points.txt
+[11.484s] writing requirements to robot_serial.egg-info/requires.txt
+[11.487s] writing top-level names to robot_serial.egg-info/top_level.txt
+[11.510s] reading manifest file 'robot_serial.egg-info/SOURCES.txt'
+[11.517s] writing manifest file 'robot_serial.egg-info/SOURCES.txt'
+[11.525s] running build_ext
+[11.526s] Creating /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot-serial.egg-link (link to .)
+[11.532s] Installing find script to /home/pi/ros2_ws/install/robot_serial/lib/robot_serial
+[11.533s] Installing serial script to /home/pi/ros2_ws/install/robot_serial/lib/robot_serial
+[11.534s] Installing serial_salida script to /home/pi/ros2_ws/install/robot_serial/lib/robot_serial
+[11.537s] 
+[11.539s] Installed /home/pi/ros2_ws/build/robot_serial
+[11.540s] running symlink_data
+[11.541s] symbolically linking /home/pi/ros2_ws/build/robot_serial/resource/robot_serial -> /home/pi/ros2_ws/install/robot_serial/share/ament_index/resource_index/packages
+[11.542s] symbolically linking /home/pi/ros2_ws/build/robot_serial/package.xml -> /home/pi/ros2_ws/install/robot_serial/share/robot_serial
+[11.816s] Invoked command in '/home/pi/ros2_ws/build/robot_serial' returned '0': PYTHONPATH=/home/pi/ros2_ws/build/robot_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/build/robot_serial/build --no-deps symlink_data --force

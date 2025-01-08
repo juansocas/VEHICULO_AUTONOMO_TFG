@@ -1,0 +1,59 @@
+[0.197s] Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_hardware -- -j4 -l4
+[0.454s] [35m[1mConsolidate compiler generated dependencies of target jsc_mecanum_hardware[0m
+[0.647s] [ 33%] [32mBuilding CXX object CMakeFiles/jsc_mecanum_hardware.dir/src/jsc_mecanum_serial_port.cpp.o[0m
+[0.668s] [ 66%] [32mBuilding CXX object CMakeFiles/jsc_mecanum_hardware.dir/src/jsc_mecanum_hardware.cpp.o[0m
+[20.729s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn jsc::jsc_mecanum_bot::hardware::MecanumbotHardware::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[20.730s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:123:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[20.731s]   123 | hardware_interface::CallbackReturn MecanumbotHardware::on_activate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[20.731s]       |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[20.735s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn jsc::jsc_mecanum_bot::hardware::MecanumbotHardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[20.736s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:150:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[20.736s]   150 | hardware_interface::CallbackReturn MecanumbotHardware::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[20.737s]       |                                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[20.767s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type jsc::jsc_mecanum_bot::hardware::MecanumbotHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[20.768s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:173:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[20.769s]   173 | hardware_interface::return_type MecanumbotHardware::read([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[20.769s]       |                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[20.770s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:173:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[20.771s]   173 | hardware_interface::return_type MecanumbotHardware::read(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[20.771s]       |                                                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[20.774s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type jsc::jsc_mecanum_bot::hardware::MecanumbotHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[20.775s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:217:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[20.775s]   217 | hardware_interface::return_type MecanumbotHardware::write([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[20.776s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[20.776s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:217:111:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[20.777s]   217 | hardware_interface::return_type MecanumbotHardware::write(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[20.777s]       |                                                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[25.993s] [100%] [32m[1mLinking CXX shared library libjsc_mecanum_hardware.so[0m
+[27.075s] [100%] Built target jsc_mecanum_hardware
+[27.191s] Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_hardware -- -j4 -l4
+[27.393s] Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_hardware
+[27.424s] -- Install configuration: ""
+[27.426s] -- Execute custom install script
+[27.428s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware//jsc_mecanum_hardware.xml
+[27.429s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/lib/libjsc_mecanum_hardware.so
+[27.431s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/include/include/jsc_mecanum_hardware/jsc_mecanum_hardware.hpp
+[27.432s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/include/include/jsc_mecanum_hardware/jsc_mecanum_hardware_compiler.h
+[27.433s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/include/include/jsc_mecanum_hardware/jsc_mecanum_serial_port.hpp
+[27.434s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/library_path.sh
+[27.435s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/library_path.dsv
+[27.437s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/package_run_dependencies/jsc_mecanum_hardware
+[27.438s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/parent_prefix_path/jsc_mecanum_hardware
+[27.439s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/ament_prefix_path.sh
+[27.440s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/ament_prefix_path.dsv
+[27.441s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/path.sh
+[27.442s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/path.dsv
+[27.444s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.bash
+[27.445s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.sh
+[27.447s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.zsh
+[27.447s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.dsv
+[27.448s] -- Symlinking: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.dsv
+[27.486s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/packages/jsc_mecanum_hardware
+[27.487s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/jsc_mecanum_hardware
+[27.488s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.489s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[27.491s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.492s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/jsc_mecanum_hardwareConfig.cmake
+[27.493s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/jsc_mecanum_hardwareConfig-version.cmake
+[27.494s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.xml
+[27.502s] Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_hardware

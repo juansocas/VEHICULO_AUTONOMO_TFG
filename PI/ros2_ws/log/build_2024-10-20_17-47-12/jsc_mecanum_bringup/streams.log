@@ -1,0 +1,44 @@
+[0.071s] Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_bringup': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/ros2_control_test_assets:/home/pi/ros2_ws/install/ros2_control_demo_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/prueba_serial:/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/src/jsc_mecanum_bringup -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/jsc_mecanum_bringup
+[0.543s] -- The C compiler identification is GNU 11.4.0
+[1.033s] -- The CXX compiler identification is GNU 11.4.0
+[1.108s] -- Detecting C compiler ABI info
+[2.137s] -- Detecting C compiler ABI info - done
+[2.174s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.177s] -- Detecting C compile features
+[2.181s] -- Detecting C compile features - done
+[2.200s] -- Detecting CXX compiler ABI info
+[2.882s] -- Detecting CXX compiler ABI info - done
+[2.921s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.924s] -- Detecting CXX compile features
+[2.928s] -- Detecting CXX compile features - done
+[2.976s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.271s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.744s] -- Configuring done
+[6.807s] -- Generating done
+[6.815s] -- Build files have been written to: /home/pi/ros2_ws/build/jsc_mecanum_bringup
+[6.844s] Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_bringup' returned '0': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/ros2_control_test_assets:/home/pi/ros2_ws/install/ros2_control_demo_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/prueba_serial:/opt/ros/humble /usr/bin/cmake /home/pi/ros2_ws/src/jsc_mecanum_bringup -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/jsc_mecanum_bringup
+[6.847s] Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_bringup': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/ros2_control_test_assets:/home/pi/ros2_ws/install/ros2_control_demo_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/prueba_serial:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_bringup -- -j4 -l4
+[7.069s] Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_bringup' returned '0': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/ros2_control_test_assets:/home/pi/ros2_ws/install/ros2_control_demo_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/prueba_serial:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_bringup -- -j4 -l4
+[7.217s] Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_bringup': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/ros2_control_test_assets:/home/pi/ros2_ws/install/ros2_control_demo_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/prueba_serial:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_bringup
+[7.268s] -- Install configuration: ""
+[7.269s] -- Installing: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/launch
+[7.272s] -- Installing: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/launch/jsc_mecanum_hardware.py
+[7.275s] -- Installing: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/launch/jsc_mecanum_state_publisher.py
+[7.277s] -- Installing: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/launch/rviz2.py
+[7.280s] -- Installing: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/launch/jsc_mecanum_teleop.py
+[7.284s] -- Installing: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/ament_index/resource_index/package_run_dependencies/jsc_mecanum_bringup
+[7.288s] -- Installing: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/ament_index/resource_index/parent_prefix_path/jsc_mecanum_bringup
+[7.291s] -- Installing: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/environment/ament_prefix_path.sh
+[7.294s] -- Installing: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/environment/ament_prefix_path.dsv
+[7.297s] -- Installing: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/environment/path.sh
+[7.300s] -- Installing: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/environment/path.dsv
+[7.303s] -- Installing: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/local_setup.bash
+[7.306s] -- Installing: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/local_setup.sh
+[7.309s] -- Installing: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/local_setup.zsh
+[7.311s] -- Installing: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/local_setup.dsv
+[7.313s] -- Installing: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/package.dsv
+[7.315s] -- Installing: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/ament_index/resource_index/packages/jsc_mecanum_bringup
+[7.318s] -- Installing: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/cmake/jsc_mecanum_bringupConfig.cmake
+[7.319s] -- Installing: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/cmake/jsc_mecanum_bringupConfig-version.cmake
+[7.322s] -- Installing: /home/pi/ros2_ws/install/jsc_mecanum_bringup/share/jsc_mecanum_bringup/package.xml
+[7.343s] Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_bringup' returned '0': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/ros2_control_test_assets:/home/pi/ros2_ws/install/ros2_control_demo_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/prueba_serial:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_bringup

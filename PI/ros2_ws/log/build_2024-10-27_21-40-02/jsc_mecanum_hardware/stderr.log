@@ -1,0 +1,59 @@
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn jsc::jsc_mecanum_bot::hardware::MecanumbotHardware::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:123:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  123 | hardware_interface::CallbackReturn MecanumbotHardware::on_activate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+      |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn jsc::jsc_mecanum_bot::hardware::MecanumbotHardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:150:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  150 | hardware_interface::CallbackReturn MecanumbotHardware::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+      |                                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type jsc::jsc_mecanum_bot::hardware::MecanumbotHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:173:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  173 | hardware_interface::return_type MecanumbotHardware::read([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+      |                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:173:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  173 | hardware_interface::return_type MecanumbotHardware::read(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+      |                                                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:3[m[K:
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type jsc::jsc_mecanum_bot::hardware::MecanumbotHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:231:9:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} to ‘[01m[Kconst char*[m[K’
+  231 |         [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger("jsc_mecanum_Hardware"), velocity_commands_[i])
+      |         [01;31m[K^~~~~~~~~~~[m[K
+      |         [01;31m[K|[m[K
+      |         [01;31m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type {aka double}[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:479:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid rcutils_log(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+  479 |   [01;36m[Kconst char * format[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:232:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kvelocity_commands_saved_[m[K’
+  232 |         [01;31m[Kvelocity_commands_saved_[m[K[i] = velocity_commands_[i];
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:217:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  217 | hardware_interface::return_type MecanumbotHardware::write([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+      |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:217:111:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  217 | hardware_interface::return_type MecanumbotHardware::write(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+      |                                                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/jsc_mecanum_hardware.dir/build.make:76: CMakeFiles/jsc_mecanum_hardware.dir/src/jsc_mecanum_hardware.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/jsc_mecanum_hardware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

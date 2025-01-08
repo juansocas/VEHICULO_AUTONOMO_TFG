@@ -1,0 +1,24 @@
+[0.183s] Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_teleop -- -j4 -l4
+[0.564s] [100%] Built target jsc_mecanum_teleop
+[4.001s] Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_teleop -- -j4 -l4
+[4.254s] Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_teleop
+[4.304s] -- Install configuration: ""
+[4.309s] -- Execute custom install script
+[4.314s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/config/teleop_config.yaml
+[4.320s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/lib/jsc_mecanum_teleop/jsc_mecanum_teleop
+[4.326s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/ament_index/resource_index/package_run_dependencies/jsc_mecanum_teleop
+[4.330s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/ament_index/resource_index/parent_prefix_path/jsc_mecanum_teleop
+[4.333s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/environment/ament_prefix_path.sh
+[4.336s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/environment/ament_prefix_path.dsv
+[4.340s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/environment/path.sh
+[4.344s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/environment/path.dsv
+[4.347s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/local_setup.bash
+[4.350s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/local_setup.sh
+[4.354s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/local_setup.zsh
+[4.357s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/local_setup.dsv
+[4.360s] -- Symlinking: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/package.dsv
+[4.417s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/ament_index/resource_index/packages/jsc_mecanum_teleop
+[4.421s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/cmake/jsc_mecanum_teleopConfig.cmake
+[4.425s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/cmake/jsc_mecanum_teleopConfig-version.cmake
+[4.430s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/package.xml
+[4.449s] Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_teleop

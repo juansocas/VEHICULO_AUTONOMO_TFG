@@ -1,0 +1,53 @@
+[1.611s] Invoking command in '/home/pi/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[2.130s] [ 10%] Built target sllidar_client
+[2.264s] [100%] Built target sllidar_node
+[2.339s] Invoked command in '/home/pi/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[3.081s] Invoking command in '/home/pi/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/sllidar_ros2
+[3.131s] -- Install configuration: ""
+[3.136s] -- Execute custom install script
+[3.143s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[3.146s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[3.150s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[3.152s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[3.154s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[3.157s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[3.159s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[3.162s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[3.164s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[3.167s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch_copy.py
+[3.169s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[3.173s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[3.175s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[3.176s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[3.176s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[3.177s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[3.178s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[3.179s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[3.179s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[3.180s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[3.181s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[3.183s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[3.187s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[3.188s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[3.191s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[3.211s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[3.214s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[3.219s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[3.231s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[3.232s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[3.242s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[3.244s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[3.247s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[3.251s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[3.262s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[3.264s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[3.265s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[3.269s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[3.270s] -- Symlinking: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[3.342s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[3.345s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.347s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.350s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[3.353s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[3.356s] -- Up-to-date symlink: /home/pi/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[3.370s] Invoked command in '/home/pi/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/sllidar_ros2

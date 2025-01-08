@@ -1,0 +1,261 @@
+[0.000000] (-) TimerEvent: {}
+[0.002168] (-) JobUnselected: {'identifier': 'jsc_mecanum_bringup'}
+[0.002918] (-) JobUnselected: {'identifier': 'jsc_mecanum_control'}
+[0.003224] (-) JobUnselected: {'identifier': 'jsc_mecanum_controller'}
+[0.003401] (-) JobUnselected: {'identifier': 'jsc_mecanum_description'}
+[0.003650] (-) JobUnselected: {'identifier': 'jsc_mecanum_teleop'}
+[0.003889] (-) JobUnselected: {'identifier': 'motor_gui_pkg'}
+[0.004149] (-) JobUnselected: {'identifier': 'robot_serial'}
+[0.004472] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.004755] (jsc_mecanum_hardware) JobQueued: {'identifier': 'jsc_mecanum_hardware', 'dependencies': OrderedDict()}
+[0.004944] (jsc_mecanum_hardware) JobStarted: {'identifier': 'jsc_mecanum_hardware'}
+[0.060006] (jsc_mecanum_hardware) JobProgress: {'identifier': 'jsc_mecanum_hardware', 'progress': 'cmake'}
+[0.063773] (jsc_mecanum_hardware) JobProgress: {'identifier': 'jsc_mecanum_hardware', 'progress': 'build'}
+[0.066931] (jsc_mecanum_hardware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ros2_ws/build/jsc_mecanum_hardware', '--', '-j4', '-l4'], 'cwd': '/home/pi/ros2_ws/build/jsc_mecanum_hardware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.1.50 56836 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib:/home/pi/ros2_ws/install/jsc_mecanum_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-0aa0aa31-66e9-46f5-8666-7d09f2a07c81.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ac1b9644b8.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/pi/ros2_ws/build/jsc_mecanum_hardware'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.50 56836 192.168.1.55 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/build/robot_serial:/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:/home/pi/ros2_ws/build/motor_gui_pkg:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble')]), 'shell': False}
+[0.098233] (-) TimerEvent: {}
+[0.199573] (-) TimerEvent: {}
+[0.301059] (-) TimerEvent: {}
+[0.385766] (jsc_mecanum_hardware) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/jsc_mecanum_hardware.dir/src/jsc_mecanum_hardware.cpp.o\x1b[0m\n'}
+[0.401257] (-) TimerEvent: {}
+[0.502108] (-) TimerEvent: {}
+[0.602947] (-) TimerEvent: {}
+[0.703819] (-) TimerEvent: {}
+[0.804762] (-) TimerEvent: {}
+[0.905708] (-) TimerEvent: {}
+[1.006549] (-) TimerEvent: {}
+[1.107808] (-) TimerEvent: {}
+[1.209106] (-) TimerEvent: {}
+[1.310534] (-) TimerEvent: {}
+[1.411270] (-) TimerEvent: {}
+[1.512006] (-) TimerEvent: {}
+[1.612785] (-) TimerEvent: {}
+[1.713502] (-) TimerEvent: {}
+[1.814224] (-) TimerEvent: {}
+[1.914957] (-) TimerEvent: {}
+[2.015718] (-) TimerEvent: {}
+[2.116485] (-) TimerEvent: {}
+[2.217231] (-) TimerEvent: {}
+[2.318078] (-) TimerEvent: {}
+[2.419041] (-) TimerEvent: {}
+[2.519794] (-) TimerEvent: {}
+[2.620537] (-) TimerEvent: {}
+[2.721327] (-) TimerEvent: {}
+[2.822162] (-) TimerEvent: {}
+[2.923016] (-) TimerEvent: {}
+[3.023893] (-) TimerEvent: {}
+[3.124849] (-) TimerEvent: {}
+[3.225733] (-) TimerEvent: {}
+[3.326533] (-) TimerEvent: {}
+[3.427577] (-) TimerEvent: {}
+[3.528454] (-) TimerEvent: {}
+[3.629263] (-) TimerEvent: {}
+[3.730129] (-) TimerEvent: {}
+[3.830904] (-) TimerEvent: {}
+[3.931730] (-) TimerEvent: {}
+[4.032754] (-) TimerEvent: {}
+[4.133619] (-) TimerEvent: {}
+[4.234478] (-) TimerEvent: {}
+[4.335414] (-) TimerEvent: {}
+[4.436308] (-) TimerEvent: {}
+[4.537130] (-) TimerEvent: {}
+[4.638013] (-) TimerEvent: {}
+[4.738855] (-) TimerEvent: {}
+[4.839777] (-) TimerEvent: {}
+[4.940632] (-) TimerEvent: {}
+[5.041528] (-) TimerEvent: {}
+[5.142345] (-) TimerEvent: {}
+[5.243162] (-) TimerEvent: {}
+[5.344067] (-) TimerEvent: {}
+[5.445553] (-) TimerEvent: {}
+[5.546429] (-) TimerEvent: {}
+[5.647257] (-) TimerEvent: {}
+[5.748146] (-) TimerEvent: {}
+[5.849064] (-) TimerEvent: {}
+[5.949908] (-) TimerEvent: {}
+[6.050772] (-) TimerEvent: {}
+[6.151584] (-) TimerEvent: {}
+[6.252492] (-) TimerEvent: {}
+[6.353440] (-) TimerEvent: {}
+[6.454274] (-) TimerEvent: {}
+[6.555121] (-) TimerEvent: {}
+[6.655949] (-) TimerEvent: {}
+[6.756831] (-) TimerEvent: {}
+[6.857613] (-) TimerEvent: {}
+[6.958393] (-) TimerEvent: {}
+[7.059171] (-) TimerEvent: {}
+[7.159948] (-) TimerEvent: {}
+[7.260779] (-) TimerEvent: {}
+[7.361620] (-) TimerEvent: {}
+[7.462427] (-) TimerEvent: {}
+[7.563276] (-) TimerEvent: {}
+[7.664091] (-) TimerEvent: {}
+[7.764907] (-) TimerEvent: {}
+[7.865704] (-) TimerEvent: {}
+[7.966551] (-) TimerEvent: {}
+[8.067348] (-) TimerEvent: {}
+[8.168167] (-) TimerEvent: {}
+[8.269099] (-) TimerEvent: {}
+[8.369939] (-) TimerEvent: {}
+[8.470771] (-) TimerEvent: {}
+[8.571634] (-) TimerEvent: {}
+[8.672541] (-) TimerEvent: {}
+[8.773327] (-) TimerEvent: {}
+[8.874127] (-) TimerEvent: {}
+[8.974935] (-) TimerEvent: {}
+[9.075783] (-) TimerEvent: {}
+[9.176606] (-) TimerEvent: {}
+[9.277410] (-) TimerEvent: {}
+[9.378218] (-) TimerEvent: {}
+[9.479031] (-) TimerEvent: {}
+[9.579839] (-) TimerEvent: {}
+[9.680672] (-) TimerEvent: {}
+[9.781499] (-) TimerEvent: {}
+[9.882395] (-) TimerEvent: {}
+[9.983179] (-) TimerEvent: {}
+[10.084005] (-) TimerEvent: {}
+[10.184913] (-) TimerEvent: {}
+[10.285980] (-) TimerEvent: {}
+[10.386914] (-) TimerEvent: {}
+[10.487702] (-) TimerEvent: {}
+[10.588516] (-) TimerEvent: {}
+[10.689381] (-) TimerEvent: {}
+[10.790265] (-) TimerEvent: {}
+[10.891104] (-) TimerEvent: {}
+[10.992020] (-) TimerEvent: {}
+[11.092904] (-) TimerEvent: {}
+[11.193855] (-) TimerEvent: {}
+[11.294670] (-) TimerEvent: {}
+[11.395474] (-) TimerEvent: {}
+[11.496488] (-) TimerEvent: {}
+[11.597340] (-) TimerEvent: {}
+[11.698352] (-) TimerEvent: {}
+[11.799245] (-) TimerEvent: {}
+[11.900034] (-) TimerEvent: {}
+[11.914804] (jsc_mecanum_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn jsc::jsc_mecanum_bot::hardware::MecanumbotHardware::on_activate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.915647] (jsc_mecanum_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:123:100:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.916170] (jsc_mecanum_hardware) StderrLine: {'line': b'  123 | hardware_interface::CallbackReturn MecanumbotHardware::on_activate(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State & previous_state\x1b[m\x1b[K)\n'}
+[11.916728] (jsc_mecanum_hardware) StderrLine: {'line': b'      |                                                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.919946] (jsc_mecanum_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn jsc::jsc_mecanum_bot::hardware::MecanumbotHardware::on_deactivate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.920690] (jsc_mecanum_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:150:102:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.921206] (jsc_mecanum_hardware) StderrLine: {'line': b'  150 | hardware_interface::CallbackReturn MecanumbotHardware::on_deactivate(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State & previous_state\x1b[m\x1b[K)\n'}
+[11.921741] (jsc_mecanum_hardware) StderrLine: {'line': b'      |                                                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.953332] (jsc_mecanum_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type jsc::jsc_mecanum_bot::hardware::MecanumbotHardware::read(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.954139] (jsc_mecanum_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:173:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.954673] (jsc_mecanum_hardware) StderrLine: {'line': b'  173 | hardware_interface::return_type MecanumbotHardware::read(\x1b[01;35m\x1b[Kconst rclcpp::Time & time\x1b[m\x1b[K, const rclcpp::Duration & period)\n'}
+[11.955132] (jsc_mecanum_hardware) StderrLine: {'line': b'      |                                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[11.955597] (jsc_mecanum_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:173:110:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.956083] (jsc_mecanum_hardware) StderrLine: {'line': b'  173 | hardware_interface::return_type MecanumbotHardware::read(const rclcpp::Time & time, \x1b[01;35m\x1b[Kconst rclcpp::Duration & period\x1b[m\x1b[K)\n'}
+[11.956637] (jsc_mecanum_hardware) StderrLine: {'line': b'      |                                                                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[11.959630] (jsc_mecanum_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type jsc::jsc_mecanum_bot::hardware::MecanumbotHardware::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.961006] (jsc_mecanum_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:219:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.961783] (jsc_mecanum_hardware) StderrLine: {'line': b'  219 | hardware_interface::return_type MecanumbotHardware::write(\x1b[01;35m\x1b[Kconst rclcpp::Time & time\x1b[m\x1b[K, const rclcpp::Duration & period)\n'}
+[11.962474] (jsc_mecanum_hardware) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[11.962966] (jsc_mecanum_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:219:111:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.963560] (jsc_mecanum_hardware) StderrLine: {'line': b'  219 | hardware_interface::return_type MecanumbotHardware::write(const rclcpp::Time & time, \x1b[01;35m\x1b[Kconst rclcpp::Duration & period\x1b[m\x1b[K)\n'}
+[11.964288] (jsc_mecanum_hardware) StderrLine: {'line': b'      |                                                                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[12.000231] (-) TimerEvent: {}
+[12.101051] (-) TimerEvent: {}
+[12.201857] (-) TimerEvent: {}
+[12.302702] (-) TimerEvent: {}
+[12.403505] (-) TimerEvent: {}
+[12.504293] (-) TimerEvent: {}
+[12.605130] (-) TimerEvent: {}
+[12.705933] (-) TimerEvent: {}
+[12.806728] (-) TimerEvent: {}
+[12.907582] (-) TimerEvent: {}
+[13.008384] (-) TimerEvent: {}
+[13.109167] (-) TimerEvent: {}
+[13.209970] (-) TimerEvent: {}
+[13.310801] (-) TimerEvent: {}
+[13.411603] (-) TimerEvent: {}
+[13.512490] (-) TimerEvent: {}
+[13.613279] (-) TimerEvent: {}
+[13.714195] (-) TimerEvent: {}
+[13.814998] (-) TimerEvent: {}
+[13.915774] (-) TimerEvent: {}
+[14.016576] (-) TimerEvent: {}
+[14.117356] (-) TimerEvent: {}
+[14.218177] (-) TimerEvent: {}
+[14.318989] (-) TimerEvent: {}
+[14.419797] (-) TimerEvent: {}
+[14.520608] (-) TimerEvent: {}
+[14.621463] (-) TimerEvent: {}
+[14.722325] (-) TimerEvent: {}
+[14.823187] (-) TimerEvent: {}
+[14.923991] (-) TimerEvent: {}
+[15.024841] (-) TimerEvent: {}
+[15.125619] (-) TimerEvent: {}
+[15.226437] (-) TimerEvent: {}
+[15.327436] (-) TimerEvent: {}
+[15.428281] (-) TimerEvent: {}
+[15.529527] (-) TimerEvent: {}
+[15.630364] (-) TimerEvent: {}
+[15.731264] (-) TimerEvent: {}
+[15.832043] (-) TimerEvent: {}
+[15.932894] (-) TimerEvent: {}
+[16.033731] (-) TimerEvent: {}
+[16.134529] (-) TimerEvent: {}
+[16.235371] (-) TimerEvent: {}
+[16.336169] (-) TimerEvent: {}
+[16.437051] (-) TimerEvent: {}
+[16.538002] (-) TimerEvent: {}
+[16.638933] (-) TimerEvent: {}
+[16.739678] (-) TimerEvent: {}
+[16.840484] (-) TimerEvent: {}
+[16.941281] (-) TimerEvent: {}
+[17.042070] (-) TimerEvent: {}
+[17.142902] (-) TimerEvent: {}
+[17.208425] (jsc_mecanum_hardware) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libjsc_mecanum_hardware.so\x1b[0m\n'}
+[17.243121] (-) TimerEvent: {}
+[17.344022] (-) TimerEvent: {}
+[17.445010] (-) TimerEvent: {}
+[17.546111] (-) TimerEvent: {}
+[17.647445] (-) TimerEvent: {}
+[17.749204] (-) TimerEvent: {}
+[17.852291] (-) TimerEvent: {}
+[17.953477] (-) TimerEvent: {}
+[18.054344] (-) TimerEvent: {}
+[18.155108] (-) TimerEvent: {}
+[18.255959] (-) TimerEvent: {}
+[18.280489] (jsc_mecanum_hardware) StdoutLine: {'line': b'[100%] Built target jsc_mecanum_hardware\n'}
+[18.325052] (jsc_mecanum_hardware) CommandEnded: {'returncode': 0}
+[18.356180] (-) TimerEvent: {}
+[18.456988] (-) TimerEvent: {}
+[18.521003] (jsc_mecanum_hardware) JobProgress: {'identifier': 'jsc_mecanum_hardware', 'progress': 'install'}
+[18.557191] (-) TimerEvent: {}
+[18.561585] (jsc_mecanum_hardware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/ros2_ws/build/jsc_mecanum_hardware'], 'cwd': '/home/pi/ros2_ws/build/jsc_mecanum_hardware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.1.50 56836 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib:/home/pi/ros2_ws/install/jsc_mecanum_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-0aa0aa31-66e9-46f5-8666-7d09f2a07c81.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ac1b9644b8.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/pi/ros2_ws/build/jsc_mecanum_hardware'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.50 56836 192.168.1.55 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ros2_ws/build/robot_serial:/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:/home/pi/ros2_ws/build/motor_gui_pkg:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble')]), 'shell': False}
+[18.601293] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.603264] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.604936] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware//jsc_mecanum_hardware.xml\n'}
+[18.606520] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/lib/libjsc_mecanum_hardware.so\n'}
+[18.608700] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/include/include/jsc_mecanum_hardware/jsc_mecanum_hardware.hpp\n'}
+[18.609516] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/include/include/jsc_mecanum_hardware/jsc_mecanum_hardware_compiler.h\n'}
+[18.610409] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/include/include/jsc_mecanum_hardware/jsc_mecanum_serial_port.hpp\n'}
+[18.611625] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/library_path.sh\n'}
+[18.612923] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/library_path.dsv\n'}
+[18.627441] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/package_run_dependencies/jsc_mecanum_hardware\n'}
+[18.629957] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/parent_prefix_path/jsc_mecanum_hardware\n'}
+[18.632211] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/ament_prefix_path.sh\n'}
+[18.634346] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/ament_prefix_path.dsv\n'}
+[18.636343] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/path.sh\n'}
+[18.637504] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/path.dsv\n'}
+[18.638618] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.bash\n'}
+[18.639702] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.sh\n'}
+[18.640858] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.zsh\n'}
+[18.641950] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.dsv\n'}
+[18.642657] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Symlinking: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.dsv\n'}
+[18.657388] (-) TimerEvent: {}
+[18.682282] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/packages/jsc_mecanum_hardware\n'}
+[18.683531] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/jsc_mecanum_hardware\n'}
+[18.684714] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[18.686080] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[18.687231] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.688251] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/jsc_mecanum_hardwareConfig.cmake\n'}
+[18.689189] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/jsc_mecanum_hardwareConfig-version.cmake\n'}
+[18.690180] (jsc_mecanum_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.xml\n'}
+[18.696054] (jsc_mecanum_hardware) CommandEnded: {'returncode': 0}
+[18.761085] (-) TimerEvent: {}
+[18.862295] (-) TimerEvent: {}
+[18.963157] (-) TimerEvent: {}
+[19.003163] (jsc_mecanum_hardware) JobEnded: {'identifier': 'jsc_mecanum_hardware', 'rc': 0}
+[19.006492] (-) EventReactorShutdown: {}

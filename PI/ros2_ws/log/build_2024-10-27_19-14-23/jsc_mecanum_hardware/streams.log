@@ -1,0 +1,101 @@
+[0.120s] Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_hardware -- -j4 -l4
+[0.434s] [35m[1mConsolidate compiler generated dependencies of target jsc_mecanum_hardware[0m
+[0.595s] [ 33%] [32mBuilding CXX object CMakeFiles/jsc_mecanum_hardware.dir/src/jsc_mecanum_serial_port.cpp.o[0m
+[15.643s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[15.643s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[15.644s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[15.644s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[15.645s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[15.646s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[15.646s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[15.646s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[15.647s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[15.647s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[15.648s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[15.648s]                  from [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:7[m[K:
+[15.649s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:[m[K In member function ‘[01m[Kjsc::jsc_mecanum_bot::hardware::return_type jsc::jsc_mecanum_bot::hardware::MecanumbotSerialPort::read_frames(std::vector<jsc::jsc_mecanum_bot::hardware::SerialHdlcFrame>&)[m[K’:
+[15.649s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:115:65:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[15.650s]   115 |         RCLCPP_WARN(rclcpp::get_logger("MecanumbotSerialPort"), [01;35m[K"Frame %zu: Length = %d"[m[K, i, [32m[Kframe.length[m[K);
+[15.650s]       |                                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K     [32m[K~~~~~~~~~~~~[m[K
+[15.651s]       |                                                                                                    [32m[K|[m[K
+[15.651s]       |                                                                                                    [32m[Klong unsigned int[m[K
+[15.651s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:115:87:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[15.652s]   115 |         RCLCPP_WARN(rclcpp::get_logger("MecanumbotSerialPort"), "Frame %zu: Length = [01;36m[K%d[m[K", i, frame.length);
+[15.652s]       |                                                                                      [01;36m[K~^[m[K
+[15.653s]       |                                                                                       [01;36m[K|[m[K
+[15.653s]       |                                                                                       [01;36m[Kint[m[K
+[15.654s]       |                                                                                      [32m[K%ld[m[K
+[15.657s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[15.658s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[15.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[15.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[15.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[15.661s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[15.661s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[15.662s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[15.662s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[15.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[15.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[15.663s]                  from [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:7[m[K:
+[15.664s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:[m[K In member function ‘[01m[Kvoid jsc::jsc_mecanum_bot::hardware::MecanumbotSerialPort::decode_byte(uint8_t, std::vector<jsc::jsc_mecanum_bot::hardware::SerialHdlcFrame>&)[m[K’:
+[15.664s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:177:69:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%zu[m[K’ expects a matching ‘[01m[Ksize_t[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[15.665s]   177 |             RCLCPP_WARN(rclcpp::get_logger("MecanumbotSerialPort"), [01;35m[K"Frame %zu: Length = %zu DECODEEEE"[m[K);
+[15.666s]       |                                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.666s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:177:78:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[15.667s]   177 |             RCLCPP_WARN(rclcpp::get_logger("MecanumbotSerialPort"), "Frame [01;36m[K%zu[m[K: Length = %zu DECODEEEE");
+[15.669s]       |                                                                            [01;36m[K~~^[m[K
+[15.669s]       |                                                                              [01;36m[K|[m[K
+[15.670s]       |                                                                              [01;36m[Klong unsigned int[m[K
+[15.670s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[15.671s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[15.671s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[15.672s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[15.672s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[15.673s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[15.673s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[15.673s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[15.674s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[15.674s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[15.675s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[15.675s]                  from [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:7[m[K:
+[15.676s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:177:69:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%zu[m[K’ expects a matching ‘[01m[Ksize_t[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[15.676s]   177 |             RCLCPP_WARN(rclcpp::get_logger("MecanumbotSerialPort"), [01;35m[K"Frame %zu: Length = %zu DECODEEEE"[m[K);
+[15.677s]       |                                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.677s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:177:92:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[15.678s]   177 |             RCLCPP_WARN(rclcpp::get_logger("MecanumbotSerialPort"), "Frame %zu: Length = [01;36m[K%zu[m[K DECODEEEE");
+[15.678s]       |                                                                                          [01;36m[K~~^[m[K
+[15.679s]       |                                                                                            [01;36m[K|[m[K
+[15.679s]       |                                                                                            [01;36m[Klong unsigned int[m[K
+[17.782s] [ 66%] [32m[1mLinking CXX shared library libjsc_mecanum_hardware.so[0m
+[18.826s] [100%] Built target jsc_mecanum_hardware
+[18.872s] Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_hardware -- -j4 -l4
+[19.071s] Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_hardware
+[19.105s] -- Install configuration: ""
+[19.107s] -- Execute custom install script
+[19.108s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware//jsc_mecanum_hardware.xml
+[19.109s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/lib/libjsc_mecanum_hardware.so
+[19.111s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/include/include/jsc_mecanum_hardware/jsc_mecanum_hardware.hpp
+[19.112s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/include/include/jsc_mecanum_hardware/jsc_mecanum_hardware_compiler.h
+[19.114s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/include/include/jsc_mecanum_hardware/jsc_mecanum_serial_port.hpp
+[19.115s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/library_path.sh
+[19.116s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/library_path.dsv
+[19.117s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/package_run_dependencies/jsc_mecanum_hardware
+[19.118s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/parent_prefix_path/jsc_mecanum_hardware
+[19.120s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/ament_prefix_path.sh
+[19.121s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/ament_prefix_path.dsv
+[19.122s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/path.sh
+[19.123s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/path.dsv
+[19.124s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.bash
+[19.125s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.sh
+[19.126s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.zsh
+[19.127s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.dsv
+[19.129s] -- Symlinking: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.dsv
+[19.168s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/packages/jsc_mecanum_hardware
+[19.169s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/jsc_mecanum_hardware
+[19.170s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.171s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[19.172s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.174s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/jsc_mecanum_hardwareConfig.cmake
+[19.175s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/jsc_mecanum_hardwareConfig-version.cmake
+[19.176s] -- Up-to-date symlink: /home/pi/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.xml
+[19.185s] Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_hardware

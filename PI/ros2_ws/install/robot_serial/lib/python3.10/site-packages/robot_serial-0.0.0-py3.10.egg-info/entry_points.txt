@@ -1,0 +1,5 @@
+[console_scripts]
+find = robot_serial.find_ports:main
+serial = robot_serial.puerto_serie:main
+serial_salida = robot_serial.puerto_serie_salida:main
+

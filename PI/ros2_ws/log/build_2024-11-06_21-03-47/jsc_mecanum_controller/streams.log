@@ -1,0 +1,6 @@
+[0.146s] Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_controller -- -j4 -l4
+[0.479s] [35m[1mConsolidate compiler generated dependencies of target jsc_mecanum_controller[0m
+[0.663s] [ 33%] [32mBuilding CXX object CMakeFiles/jsc_mecanum_controller.dir/src/jsc_mecanum_drive_controller.cpp.o[0m
+[2.976s] gmake[2]: *** [CMakeFiles/jsc_mecanum_controller.dir/build.make:76: CMakeFiles/jsc_mecanum_controller.dir/src/jsc_mecanum_drive_controller.cpp.o] Interrupt
+[2.980s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/jsc_mecanum_controller.dir/all] Interrupt
+[2.981s] gmake: *** [Makefile:146: all] Interrupt

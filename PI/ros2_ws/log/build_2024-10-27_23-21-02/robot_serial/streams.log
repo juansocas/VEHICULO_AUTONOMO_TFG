@@ -1,0 +1,19 @@
+[6.438s] Invoking command in '/home/pi/ros2_ws/build/robot_serial': PYTHONPATH=/home/pi/ros2_ws/build/robot_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/build/robot_serial/build --no-deps symlink_data
+[8.684s] running develop
+[9.980s] running egg_info
+[9.981s] writing robot_serial.egg-info/PKG-INFO
+[9.982s] writing dependency_links to robot_serial.egg-info/dependency_links.txt
+[9.983s] writing entry points to robot_serial.egg-info/entry_points.txt
+[9.984s] writing requirements to robot_serial.egg-info/requires.txt
+[9.985s] writing top-level names to robot_serial.egg-info/top_level.txt
+[9.995s] reading manifest file 'robot_serial.egg-info/SOURCES.txt'
+[9.999s] writing manifest file 'robot_serial.egg-info/SOURCES.txt'
+[10.007s] running build_ext
+[10.008s] Creating /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot-serial.egg-link (link to .)
+[10.012s] Installing find script to /home/pi/ros2_ws/install/robot_serial/lib/robot_serial
+[10.013s] Installing serial script to /home/pi/ros2_ws/install/robot_serial/lib/robot_serial
+[10.014s] Installing serial_salida script to /home/pi/ros2_ws/install/robot_serial/lib/robot_serial
+[10.017s] 
+[10.017s] Installed /home/pi/ros2_ws/build/robot_serial
+[10.019s] running symlink_data
+[10.195s] Invoked command in '/home/pi/ros2_ws/build/robot_serial' returned '0': PYTHONPATH=/home/pi/ros2_ws/build/robot_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/build/robot_serial/build --no-deps symlink_data

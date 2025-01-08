@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing robot_serial.egg-info/PKG-INFO
+writing dependency_links to robot_serial.egg-info/dependency_links.txt
+writing entry points to robot_serial.egg-info/entry_points.txt
+writing requirements to robot_serial.egg-info/requires.txt
+writing top-level names to robot_serial.egg-info/top_level.txt
+reading manifest file 'robot_serial.egg-info/SOURCES.txt'
+writing manifest file 'robot_serial.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot-serial.egg-link (link to .)
+Installing find script to /home/pi/ros2_ws/install/robot_serial/lib/robot_serial
+Installing serial script to /home/pi/ros2_ws/install/robot_serial/lib/robot_serial
+Installing serial_salida script to /home/pi/ros2_ws/install/robot_serial/lib/robot_serial
+
+Installed /home/pi/ros2_ws/build/robot_serial
+running symlink_data
+symbolically linking /home/pi/ros2_ws/build/robot_serial/resource/robot_serial -> /home/pi/ros2_ws/install/robot_serial/share/ament_index/resource_index/packages
+symbolically linking /home/pi/ros2_ws/build/robot_serial/package.xml -> /home/pi/ros2_ws/install/robot_serial/share/robot_serial

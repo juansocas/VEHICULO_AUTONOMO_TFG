@@ -1,0 +1,55 @@
+[0.120s] Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_controller -- -j4 -l4
+[0.403s] [35m[1mConsolidate compiler generated dependencies of target jsc_mecanum_controller[0m
+[0.560s] [ 33%] [32mBuilding CXX object CMakeFiles/jsc_mecanum_controller.dir/src/jsc_mecanum_drive_controller.cpp.o[0m
+[15.323s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_controller/src/jsc_mecanum_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type jsc::mecanumbot::controller::MecanumbotDriveController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[15.324s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_controller/src/jsc_mecanum_drive_controller.cpp:71:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Klinear[m[K’
+[15.325s]    71 |     double fl_wheel_velocity = (1 / wheel_radius_) * (twist.[01;31m[Klinear[m[K.x - twist.linear.y - (wheel_separation_width_ + wheel_separation_length_) * twist.angular.z);
+[15.326s]       |                                                             [01;31m[K^~~~~~[m[K
+[15.326s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_controller/src/jsc_mecanum_drive_controller.cpp:71:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Klinear[m[K’
+[15.327s]    71 |     double fl_wheel_velocity = (1 / wheel_radius_) * (twist.linear.x - twist.[01;31m[Klinear[m[K.y - (wheel_separation_width_ + wheel_separation_length_) * twist.angular.z);
+[15.327s]       |                                                                              [01;31m[K^~~~~~[m[K
+[15.328s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_controller/src/jsc_mecanum_drive_controller.cpp:71:150:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kangular[m[K’
+[15.328s]    71 | adius_) * (twist.linear.x - twist.linear.y - (wheel_separation_width_ + wheel_separation_length_) * twist.[01;31m[Kangular[m[K.z);
+[15.329s]       |                                                                                                           [01;31m[K^~~~~~~[m[K
+[15.329s] 
+[15.330s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_controller/src/jsc_mecanum_drive_controller.cpp:72:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Klinear[m[K’
+[15.330s]    72 |     double fr_wheel_velocity = (1 / wheel_radius_) * (twist.[01;31m[Klinear[m[K.x + twist.linear.y + (wheel_separation_width_ + wheel_separation_length_) * twist.angular.z);
+[15.331s]       |                                                             [01;31m[K^~~~~~[m[K
+[15.331s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_controller/src/jsc_mecanum_drive_controller.cpp:72:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Klinear[m[K’
+[15.332s]    72 |     double fr_wheel_velocity = (1 / wheel_radius_) * (twist.linear.x + twist.[01;31m[Klinear[m[K.y + (wheel_separation_width_ + wheel_separation_length_) * twist.angular.z);
+[15.332s]       |                                                                              [01;31m[K^~~~~~[m[K
+[15.333s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_controller/src/jsc_mecanum_drive_controller.cpp:72:150:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kangular[m[K’
+[15.333s]    72 | adius_) * (twist.linear.x + twist.linear.y + (wheel_separation_width_ + wheel_separation_length_) * twist.[01;31m[Kangular[m[K.z);
+[15.334s]       |                                                                                                           [01;31m[K^~~~~~~[m[K
+[15.334s] 
+[15.335s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_controller/src/jsc_mecanum_drive_controller.cpp:73:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Klinear[m[K’
+[15.335s]    73 |     double rl_wheel_velocity = (1 / wheel_radius_) * (twist.[01;31m[Klinear[m[K.x + twist.linear.y - (wheel_separation_width_ + wheel_separation_length_) * twist.angular.z);
+[15.336s]       |                                                             [01;31m[K^~~~~~[m[K
+[15.336s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_controller/src/jsc_mecanum_drive_controller.cpp:73:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Klinear[m[K’
+[15.337s]    73 |     double rl_wheel_velocity = (1 / wheel_radius_) * (twist.linear.x + twist.[01;31m[Klinear[m[K.y - (wheel_separation_width_ + wheel_separation_length_) * twist.angular.z);
+[15.337s]       |                                                                              [01;31m[K^~~~~~[m[K
+[15.338s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_controller/src/jsc_mecanum_drive_controller.cpp:73:150:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kangular[m[K’
+[15.338s]    73 | adius_) * (twist.linear.x + twist.linear.y - (wheel_separation_width_ + wheel_separation_length_) * twist.[01;31m[Kangular[m[K.z);
+[15.338s]       |                                                                                                           [01;31m[K^~~~~~~[m[K
+[15.339s] 
+[15.339s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_controller/src/jsc_mecanum_drive_controller.cpp:74:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Klinear[m[K’
+[15.340s]    74 |     double rr_wheel_velocity = (1 / wheel_radius_) * (twist.[01;31m[Klinear[m[K.x - twist.linear.y + (wheel_separation_width_ + wheel_separation_length_) * twist.angular.z);
+[15.340s]       |                                                             [01;31m[K^~~~~~[m[K
+[15.341s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_controller/src/jsc_mecanum_drive_controller.cpp:74:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Klinear[m[K’
+[15.341s]    74 |     double rr_wheel_velocity = (1 / wheel_radius_) * (twist.linear.x - twist.[01;31m[Klinear[m[K.y + (wheel_separation_width_ + wheel_separation_length_) * twist.angular.z);
+[15.342s]       |                                                                              [01;31m[K^~~~~~[m[K
+[15.342s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_controller/src/jsc_mecanum_drive_controller.cpp:74:150:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kangular[m[K’
+[15.343s]    74 | adius_) * (twist.linear.x - twist.linear.y + (wheel_separation_width_ + wheel_separation_length_) * twist.[01;31m[Kangular[m[K.z);
+[15.343s]       |                                                                                                           [01;31m[K^~~~~~~[m[K
+[15.343s] 
+[15.344s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_controller/src/jsc_mecanum_drive_controller.cpp:60:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[15.345s]    60 | controller_interface::return_type MecanumbotDriveController::update([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[15.345s]       |                                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[15.345s] [01m[K/home/pi/ros2_ws/src/jsc_mecanum_controller/src/jsc_mecanum_drive_controller.cpp:60:121:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[15.346s]    60 | _interface::return_type MecanumbotDriveController::update(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[15.347s]       |                                                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[15.347s] 
+[24.645s] gmake[2]: *** [CMakeFiles/jsc_mecanum_controller.dir/build.make:76: CMakeFiles/jsc_mecanum_controller.dir/src/jsc_mecanum_drive_controller.cpp.o] Error 1
+[24.645s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/jsc_mecanum_controller.dir/all] Error 2
+[24.646s] gmake: *** [Makefile:146: all] Error 2
+[24.653s] Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_controller -- -j4 -l4

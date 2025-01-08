@@ -1,0 +1,54 @@
+[0.165s] Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_description -- -j4 -l4
+[0.485s] Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_ws/build/jsc_mecanum_description -- -j4 -l4
+[0.676s] Invoking command in '/home/pi/ros2_ws/build/jsc_mecanum_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_description
+[0.730s] -- Install configuration: ""
+[0.734s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/config
+[0.736s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/config/diff_drive_controller.yaml
+[0.738s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/config/robot_controller_config.yaml
+[0.739s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/config/slam_toolbox_config.yaml
+[0.741s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch
+[0.744s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v3_launch.py
+[0.746s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v4_launch.py
+[0.748s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v6_launch.py
+[0.750s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v2_launch.py
+[0.751s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v7_launch_pi.py
+[0.753s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v6_launch_pi.py
+[0.754s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v4_launch_pi.py
+[0.756s] -- Installing: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v8_pi.py
+[0.759s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v1_launch.py
+[0.760s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v5_launch.py
+[0.762s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/meshes
+[0.763s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/meshes/fl_wheel_link.STL
+[0.765s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/meshes/rl_wheel_link.STL
+[0.766s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/meshes/fr_wheel_link.STL
+[0.768s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/meshes/rr_wheel_link.STL
+[0.770s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/models
+[0.771s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/models/jsc_mecanum_bot_description
+[0.776s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/models/jsc_mecanum_bot_description/model.sdf
+[0.785s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/models/jsc_mecanum_bot_description/model.config
+[0.807s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/models/jsc_mecanum_bot_description/config
+[0.809s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/models/jsc_mecanum_bot_description/meshes
+[0.811s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/models/jsc_mecanum_bot_description/meshes/fl_wheel_link.STL
+[0.811s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/models/jsc_mecanum_bot_description/meshes/rl_wheel_link.STL
+[0.812s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/models/jsc_mecanum_bot_description/meshes/fr_wheel_link.STL
+[0.812s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/models/jsc_mecanum_bot_description/meshes/rr_wheel_link.STL
+[0.813s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/rviz
+[0.813s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/rviz/model.rviz
+[0.814s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/src
+[0.815s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/src/jsc_mecanum_description.urdf
+[0.815s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/ament_index/resource_index/package_run_dependencies/jsc_mecanum_description
+[0.816s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/ament_index/resource_index/parent_prefix_path/jsc_mecanum_description
+[0.817s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/environment/ament_prefix_path.sh
+[0.817s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/environment/ament_prefix_path.dsv
+[0.828s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/environment/path.sh
+[0.829s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/environment/path.dsv
+[0.829s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/local_setup.bash
+[0.835s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/local_setup.sh
+[0.836s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/local_setup.zsh
+[0.836s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/local_setup.dsv
+[0.837s] -- Installing: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/package.dsv
+[0.838s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/ament_index/resource_index/packages/jsc_mecanum_description
+[0.839s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/cmake/jsc_mecanum_descriptionConfig.cmake
+[0.840s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/cmake/jsc_mecanum_descriptionConfig-version.cmake
+[0.844s] -- Up-to-date: /home/pi/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/package.xml
+[0.853s] Invoked command in '/home/pi/ros2_ws/build/jsc_mecanum_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/robot_serial:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_ws/build/jsc_mecanum_description

@@ -1,0 +1,24 @@
+[6.472s] Invoking command in '/home/pi/ros2_ws/src/robot_serial': PYTHONPATH=/home/pi/ros2_ws/build/robot_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_serial build --build-base /home/pi/ros2_ws/build/robot_serial/build install --record /home/pi/ros2_ws/build/robot_serial/install.log --single-version-externally-managed install_data
+[8.056s] running egg_info
+[8.060s] writing ../../build/robot_serial/robot_serial.egg-info/PKG-INFO
+[8.062s] writing dependency_links to ../../build/robot_serial/robot_serial.egg-info/dependency_links.txt
+[8.065s] writing entry points to ../../build/robot_serial/robot_serial.egg-info/entry_points.txt
+[8.066s] writing requirements to ../../build/robot_serial/robot_serial.egg-info/requires.txt
+[8.068s] writing top-level names to ../../build/robot_serial/robot_serial.egg-info/top_level.txt
+[8.078s] reading manifest file '../../build/robot_serial/robot_serial.egg-info/SOURCES.txt'
+[8.079s] adding license file 'LICENSE'
+[8.082s] writing manifest file '../../build/robot_serial/robot_serial.egg-info/SOURCES.txt'
+[8.083s] running build
+[8.084s] running build_py
+[8.085s] running install
+[8.087s] running install_lib
+[8.095s] running install_data
+[8.096s] running install_egg_info
+[8.107s] removing '/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial-0.0.0-py3.10.egg-info' (and everything under it)
+[8.108s] Copying ../../build/robot_serial/robot_serial.egg-info to /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial-0.0.0-py3.10.egg-info
+[8.116s] running install_scripts
+[8.203s] Installing find script to /home/pi/ros2_ws/install/robot_serial/lib/robot_serial
+[8.204s] Installing serial script to /home/pi/ros2_ws/install/robot_serial/lib/robot_serial
+[8.205s] Installing serial_salida script to /home/pi/ros2_ws/install/robot_serial/lib/robot_serial
+[8.207s] writing list of installed files to '/home/pi/ros2_ws/build/robot_serial/install.log'
+[8.334s] Invoked command in '/home/pi/ros2_ws/src/robot_serial' returned '0': PYTHONPATH=/home/pi/ros2_ws/build/robot_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_serial build --build-base /home/pi/ros2_ws/build/robot_serial/build install --record /home/pi/ros2_ws/build/robot_serial/install.log --single-version-externally-managed install_data

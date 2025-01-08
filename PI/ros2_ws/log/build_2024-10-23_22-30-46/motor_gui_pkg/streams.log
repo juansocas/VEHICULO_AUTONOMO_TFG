@@ -1,0 +1,37 @@
+[6.400s] Invoking command in '/home/pi/ros2_ws/src/motor_gui_pkg': PYTHONPATH=/home/pi/ros2_ws/build/motor_gui_pkg/prefix_override:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_gui_pkg build --build-base /home/pi/ros2_ws/build/motor_gui_pkg/build install --record /home/pi/ros2_ws/build/motor_gui_pkg/install.log --single-version-externally-managed install_data
+[8.853s] running egg_info
+[8.855s] creating ../../build/motor_gui_pkg/motor_gui_pkg.egg-info
+[8.856s] writing ../../build/motor_gui_pkg/motor_gui_pkg.egg-info/PKG-INFO
+[8.858s] writing dependency_links to ../../build/motor_gui_pkg/motor_gui_pkg.egg-info/dependency_links.txt
+[8.859s] writing entry points to ../../build/motor_gui_pkg/motor_gui_pkg.egg-info/entry_points.txt
+[8.860s] writing requirements to ../../build/motor_gui_pkg/motor_gui_pkg.egg-info/requires.txt
+[8.861s] writing top-level names to ../../build/motor_gui_pkg/motor_gui_pkg.egg-info/top_level.txt
+[8.863s] writing manifest file '../../build/motor_gui_pkg/motor_gui_pkg.egg-info/SOURCES.txt'
+[8.876s] reading manifest file '../../build/motor_gui_pkg/motor_gui_pkg.egg-info/SOURCES.txt'
+[8.881s] writing manifest file '../../build/motor_gui_pkg/motor_gui_pkg.egg-info/SOURCES.txt'
+[8.882s] running build
+[8.883s] running build_py
+[8.884s] creating /home/pi/ros2_ws/build/motor_gui_pkg/build
+[8.884s] creating /home/pi/ros2_ws/build/motor_gui_pkg/build/lib
+[8.885s] creating /home/pi/ros2_ws/build/motor_gui_pkg/build/lib/motor_gui_pkg
+[8.886s] copying motor_gui_pkg/__init__.py -> /home/pi/ros2_ws/build/motor_gui_pkg/build/lib/motor_gui_pkg
+[8.888s] copying motor_gui_pkg/motor_gui.py -> /home/pi/ros2_ws/build/motor_gui_pkg/build/lib/motor_gui_pkg
+[8.890s] running install
+[8.891s] running install_lib
+[8.896s] creating /home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages/motor_gui_pkg
+[8.896s] copying /home/pi/ros2_ws/build/motor_gui_pkg/build/lib/motor_gui_pkg/__init__.py -> /home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages/motor_gui_pkg
+[8.897s] copying /home/pi/ros2_ws/build/motor_gui_pkg/build/lib/motor_gui_pkg/motor_gui.py -> /home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages/motor_gui_pkg
+[8.901s] byte-compiling /home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages/motor_gui_pkg/__init__.py to __init__.cpython-310.pyc
+[8.903s] byte-compiling /home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages/motor_gui_pkg/motor_gui.py to motor_gui.cpython-310.pyc
+[8.909s] running install_data
+[8.910s] creating /home/pi/ros2_ws/install/motor_gui_pkg/share/ament_index
+[8.911s] creating /home/pi/ros2_ws/install/motor_gui_pkg/share/ament_index/resource_index
+[8.913s] creating /home/pi/ros2_ws/install/motor_gui_pkg/share/ament_index/resource_index/packages
+[8.915s] copying resource/motor_gui_pkg -> /home/pi/ros2_ws/install/motor_gui_pkg/share/ament_index/resource_index/packages
+[8.916s] copying package.xml -> /home/pi/ros2_ws/install/motor_gui_pkg/share/motor_gui_pkg
+[8.918s] running install_egg_info
+[8.938s] Copying ../../build/motor_gui_pkg/motor_gui_pkg.egg-info to /home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages/motor_gui_pkg-0.0.0-py3.10.egg-info
+[8.952s] running install_scripts
+[9.079s] Installing motor_gui script to /home/pi/ros2_ws/install/motor_gui_pkg/lib/motor_gui_pkg
+[9.086s] writing list of installed files to '/home/pi/ros2_ws/build/motor_gui_pkg/install.log'
+[9.268s] Invoked command in '/home/pi/ros2_ws/src/motor_gui_pkg' returned '0': PYTHONPATH=/home/pi/ros2_ws/build/motor_gui_pkg/prefix_override:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_gui_pkg build --build-base /home/pi/ros2_ws/build/motor_gui_pkg/build install --record /home/pi/ros2_ws/build/motor_gui_pkg/install.log --single-version-externally-managed install_data

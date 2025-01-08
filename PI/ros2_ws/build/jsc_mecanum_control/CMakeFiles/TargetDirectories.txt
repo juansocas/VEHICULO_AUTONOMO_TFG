@@ -1,0 +1,10 @@
+/home/pi/ros2_ws/build/jsc_mecanum_control/CMakeFiles/uninstall.dir
+/home/pi/ros2_ws/build/jsc_mecanum_control/CMakeFiles/jsc_mecanum_control_uninstall.dir
+/home/pi/ros2_ws/build/jsc_mecanum_control/CMakeFiles/jsc_mecanum_control_node.dir
+/home/pi/ros2_ws/build/jsc_mecanum_control/CMakeFiles/test.dir
+/home/pi/ros2_ws/build/jsc_mecanum_control/CMakeFiles/edit_cache.dir
+/home/pi/ros2_ws/build/jsc_mecanum_control/CMakeFiles/rebuild_cache.dir
+/home/pi/ros2_ws/build/jsc_mecanum_control/CMakeFiles/list_install_components.dir
+/home/pi/ros2_ws/build/jsc_mecanum_control/CMakeFiles/install.dir
+/home/pi/ros2_ws/build/jsc_mecanum_control/CMakeFiles/install/local.dir
+/home/pi/ros2_ws/build/jsc_mecanum_control/CMakeFiles/install/strip.dir

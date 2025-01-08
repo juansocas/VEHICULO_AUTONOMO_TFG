@@ -1,0 +1,39 @@
+# slam_toolbox_config.yaml
+slam_toolbox:
+  use_sim_time: true
+
+  # Odometría
+  provide_odom_frame: false  # No se proporciona un marco de odometría
+  publish_odom_to_base: false # No se publica odometría al marco base
+
+  # Parametros del SLAM
+  mapping:
+    publish_map_tf: true      # Publica la transformación del mapa al marco del robot
+    publish_final_map: true    # Publica el mapa final al terminar el levantamiento
+    map_update_interval: 2.0   # Intervalo en segundos para actualizar el mapa
+
+  # Configuración del escaneo
+  input:
+    scan: "/scan"              # El tópico de entrada de escaneo del LIDAR
+
+  # Configuración de la optimización
+  optimization:
+    enable_optimization: true   # Habilita la optimización en el proceso de SLAM
+    optimization_period: 5.0    # Período de optimización en segundos
+
+  # Configuración del mapa
+  map:
+    resolution: 0.05            # Resolución del mapa (en metros)
+    size: [1024, 1024]          # Tamaño del mapa (en píxeles)
+    initial_position: [0.0, 0.0] # Posición inicial del robot en el mapa
+
+  # Configuración de los parámetros del filtro
+  filter:
+    max_range: 12.0             # Rango máximo del LIDAR (en metros)
+    min_range: 0.1              # Rango mínimo del LIDAR (en metros)
+
+  # Configuración de las transformaciones
+  transformations:
+    map_to_base_footprint:
+      parent_frame: "map"        # Marco padre
+      child_frame: "base_footprint" # Marco hijo

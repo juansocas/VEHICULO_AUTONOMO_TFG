@@ -1,0 +1,44 @@
+running egg_info
+creating ../../build/robot_serial/robot_serial.egg-info
+writing ../../build/robot_serial/robot_serial.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_serial/robot_serial.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_serial/robot_serial.egg-info/entry_points.txt
+writing requirements to ../../build/robot_serial/robot_serial.egg-info/requires.txt
+writing top-level names to ../../build/robot_serial/robot_serial.egg-info/top_level.txt
+writing manifest file '../../build/robot_serial/robot_serial.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_serial/robot_serial.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/robot_serial/robot_serial.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pi/ros2_ws/build/robot_serial/build
+creating /home/pi/ros2_ws/build/robot_serial/build/lib
+creating /home/pi/ros2_ws/build/robot_serial/build/lib/robot_serial
+copying robot_serial/__init__.py -> /home/pi/ros2_ws/build/robot_serial/build/lib/robot_serial
+copying robot_serial/puerto_serie_salida.py -> /home/pi/ros2_ws/build/robot_serial/build/lib/robot_serial
+copying robot_serial/find_ports.py -> /home/pi/ros2_ws/build/robot_serial/build/lib/robot_serial
+copying robot_serial/puerto_serie.py -> /home/pi/ros2_ws/build/robot_serial/build/lib/robot_serial
+running install
+running install_lib
+creating /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial
+copying /home/pi/ros2_ws/build/robot_serial/build/lib/robot_serial/__init__.py -> /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial
+copying /home/pi/ros2_ws/build/robot_serial/build/lib/robot_serial/puerto_serie_salida.py -> /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial
+copying /home/pi/ros2_ws/build/robot_serial/build/lib/robot_serial/find_ports.py -> /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial
+copying /home/pi/ros2_ws/build/robot_serial/build/lib/robot_serial/puerto_serie.py -> /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial
+byte-compiling /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial/puerto_serie_salida.py to puerto_serie_salida.cpython-310.pyc
+byte-compiling /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial/find_ports.py to find_ports.cpython-310.pyc
+byte-compiling /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial/puerto_serie.py to puerto_serie.cpython-310.pyc
+running install_data
+creating /home/pi/ros2_ws/install/robot_serial/share/ament_index
+creating /home/pi/ros2_ws/install/robot_serial/share/ament_index/resource_index
+creating /home/pi/ros2_ws/install/robot_serial/share/ament_index/resource_index/packages
+copying resource/robot_serial -> /home/pi/ros2_ws/install/robot_serial/share/ament_index/resource_index/packages
+copying package.xml -> /home/pi/ros2_ws/install/robot_serial/share/robot_serial
+running install_egg_info
+Copying ../../build/robot_serial/robot_serial.egg-info to /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial-0.0.0-py3.10.egg-info
+running install_scripts
+Installing find script to /home/pi/ros2_ws/install/robot_serial/lib/robot_serial
+Installing serial script to /home/pi/ros2_ws/install/robot_serial/lib/robot_serial
+Installing serial_salida script to /home/pi/ros2_ws/install/robot_serial/lib/robot_serial
+writing list of installed files to '/home/pi/ros2_ws/build/robot_serial/install.log'

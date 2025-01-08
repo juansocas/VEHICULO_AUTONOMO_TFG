@@ -1,0 +1,56 @@
+# Configuración del controlador para 4 ruedas con el tipo de controlador "diff_drive_controller"
+
+controller_manager:
+  ros__parameters:
+    # Parámetros generales del controlador
+    update_rate: 50.0  # Frecuencia del controlador en Hz
+    wheel_separation: 0.8  # Separación entre las ruedas (distancia entre ejes)
+    wheel_diameter: 0.12  # Diámetro de las ruedas en metros
+
+    # Tópico de comandos para el control del robot (velocidad lineal y angular)
+    cmd_vel_topic: "/cmd_vel"
+
+    # Parámetros de cada rueda
+    left_wheel:
+      joint: "fl_wheel_joint"
+      command_interface: "velocity"
+      state_interface: "velocity"
+    right_wheel:
+      joint: "fr_wheel_joint"
+      command_interface: "velocity"
+      state_interface: "velocity"
+    rear_left_wheel:
+      joint: "rl_wheel_joint"
+      command_interface: "velocity"
+      state_interface: "velocity"
+    rear_right_wheel:
+      joint: "rr_wheel_joint"
+      command_interface: "velocity"
+      state_interface: "velocity"
+
+    # Odometry
+    odometry:
+      publish_odom: true  # Publicar odometría
+      publish_odom_tf: true  # Publicar TF de la odometría
+      odom_frame: "odom"  # Nombre del marco de referencia para la odometría
+      base_frame: "base_link"  # Marco de referencia del robot
+      update_rate: 50  # Frecuencia para actualizar la odometría
+
+# Controlador de difusión
+controller:
+  type: "diff_drive_controller/DiffDriveController"
+  name: "diff_drive_controller"
+  ros__parameters:
+    cmd_vel_topic: "/cmd_vel"  # Tópico para recibir los comandos de velocidad
+    left_wheel_joint: "fl_wheel_joint"  # Unión para la rueda izquierda
+    right_wheel_joint: "fr_wheel_joint"  # Unión para la rueda derecha
+    rear_left_wheel_joint: "rl_wheel_joint"  # Unión para la rueda izquierda trasera
+    rear_right_wheel_joint: "rr_wheel_joint"  # Unión para la rueda derecha trasera
+    wheel_separation: 0.8  # Separación entre las ruedas (ejes)
+    wheel_diameter: 0.12  # Diámetro de las ruedas
+    max_wheel_acceleration: 0.7  # Aceleración máxima de las ruedas
+    publish_odom: true  # Publicar odometría
+    publish_odom_tf: true  # Publicar el transformador de odometría
+    odom_frame: "odom"  # Marco de referencia de odometría
+    base_frame: "base_link"  # Marco de referencia del robot
+    update_rate: 50.0  # Frecuencia de actualización del controlador

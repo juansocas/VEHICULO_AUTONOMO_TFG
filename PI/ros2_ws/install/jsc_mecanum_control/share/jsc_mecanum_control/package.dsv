@@ -1,0 +1,8 @@
+source;share/jsc_mecanum_control/hook/cmake_prefix_path.ps1
+source;share/jsc_mecanum_control/hook/cmake_prefix_path.dsv
+source;share/jsc_mecanum_control/hook/cmake_prefix_path.sh
+source;share/jsc_mecanum_control/local_setup.bash
+source;share/jsc_mecanum_control/local_setup.dsv
+source;share/jsc_mecanum_control/local_setup.ps1
+source;share/jsc_mecanum_control/local_setup.sh
+source;share/jsc_mecanum_control/local_setup.zsh

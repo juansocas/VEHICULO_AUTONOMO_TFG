@@ -1,0 +1,10 @@
+<library path="jsc_mecanum_hardware">
+    <class name="jsc_mecanum_hardware/MecanumbotHardware"
+      type="jsc::jsc_mecanum_bot::hardware::MecanumbotHardware"
+      base_class_type="hardware_interface::SystemInterface"
+    >
+      <description>
+        Hardware interface 
+      </description>
+    </class>
+  </library>

@@ -1,0 +1,53 @@
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:211:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_WARN"
+  211 | }
+      |  [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:7[m[K:
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:[m[K In member function ‘[01m[Kjsc::jsc_mecanum_bot::hardware::return_type jsc::jsc_mecanum_bot::hardware::MecanumbotSerialPort::read_frames(std::vector<jsc::jsc_mecanum_bot::hardware::SerialHdlcFrame>&)[m[K’:
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:115:65:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  115 |         RCLCPP_WARN(rclcpp::get_logger("MecanumbotSerialPort"), [01;35m[K"Frame %zu: Length = %d"[m[K, i, [32m[Kframe.length[m[K);
+      |                                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K     [32m[K~~~~~~~~~~~~[m[K
+      |                                                                                                    [32m[K|[m[K
+      |                                                                                                    [32m[Klong unsigned int[m[K
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:115:87:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  115 |         RCLCPP_WARN(rclcpp::get_logger("MecanumbotSerialPort"), "Frame %zu: Length = [01;36m[K%d[m[K", i, frame.length);
+      |                                                                                      [01;36m[K~^[m[K
+      |                                                                                       [01;36m[K|[m[K
+      |                                                                                       [01;36m[Kint[m[K
+      |                                                                                      [32m[K%ld[m[K
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:[m[K In member function ‘[01m[Kvoid jsc::jsc_mecanum_bot::hardware::MecanumbotSerialPort::decode_byte(uint8_t, std::vector<jsc::jsc_mecanum_bot::hardware::SerialHdlcFrame>&)[m[K’:
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:177:13:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_WARN[m[K’ was not declared in this scope
+  177 |             [01;31m[KRCLCPP_WARN[m[K(rclcpp::get_logger("MecanumbotSerialPort"), "Frame %zu: Length = %zu DECODEEEE";
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:177:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  177 |             RCLCPP_WARN[01;31m[K([m[Krclcpp::get_logger("MecanumbotSerialPort"), "Frame %zu: Length = %zu DECODEEEE";
+      |                        [01;31m[K^[m[K
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:172:144:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+  172 | if (rx_frame_length_ > 2 && rx_frame_crc_ == ((rx_frame_buffer_[rx_frame_length_ - 1] << 8) | rx_frame_buffer_[rx_frame_length_ - 2])) [01;36m[K{[m[K
+      |                                                                                                                                        [01;36m[K^[m[K
+
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:177:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  177 |             RCLCPP_WARN[01;31m[K([m[Krclcpp::get_logger("MecanumbotSerialPort"), "Frame %zu: Length = %zu DECODEEEE";
+      |                        [01;31m[K^[m[K
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:170:42:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+  170 |     if (data == HDLC_FRAME_BOUNDRY_FLAG) [01;36m[K{[m[K
+      |                                          [01;36m[K^[m[K
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:177:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  177 |             RCLCPP_WARN[01;31m[K([m[Krclcpp::get_logger("MecanumbotSerialPort"), "Frame %zu: Length = %zu DECODEEEE";
+      |                        [01;31m[K^[m[K
+[01m[K/home/pi/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_serial_port.cpp:169:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+  169 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/jsc_mecanum_hardware.dir/build.make:90: CMakeFiles/jsc_mecanum_hardware.dir/src/jsc_mecanum_serial_port.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/jsc_mecanum_hardware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/motor_gui_pkg/motor_gui_pkg.egg-info/PKG-INFO
+../../build/motor_gui_pkg/motor_gui_pkg.egg-info/SOURCES.txt
+../../build/motor_gui_pkg/motor_gui_pkg.egg-info/dependency_links.txt
+../../build/motor_gui_pkg/motor_gui_pkg.egg-info/entry_points.txt
+../../build/motor_gui_pkg/motor_gui_pkg.egg-info/requires.txt
+../../build/motor_gui_pkg/motor_gui_pkg.egg-info/top_level.txt
+../../build/motor_gui_pkg/motor_gui_pkg.egg-info/zip-safe
+launch/motor_gui_launch.py
+motor_gui_pkg/__init__.py
+motor_gui_pkg/motor_gui.py
+resource/motor_gui_pkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

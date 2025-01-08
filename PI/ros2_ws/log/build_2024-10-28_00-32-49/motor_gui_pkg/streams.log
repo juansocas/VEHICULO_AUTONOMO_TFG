@@ -1,0 +1,19 @@
+[4.180s] Invoking command in '/home/pi/ros2_ws/build/motor_gui_pkg': PYTHONPATH=/home/pi/ros2_ws/build/motor_gui_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/build/motor_gui_pkg/build --no-deps symlink_data
+[5.634s] running develop
+[6.524s] running egg_info
+[6.525s] writing motor_gui_pkg.egg-info/PKG-INFO
+[6.526s] writing dependency_links to motor_gui_pkg.egg-info/dependency_links.txt
+[6.527s] writing entry points to motor_gui_pkg.egg-info/entry_points.txt
+[6.528s] writing requirements to motor_gui_pkg.egg-info/requires.txt
+[6.528s] writing top-level names to motor_gui_pkg.egg-info/top_level.txt
+[6.537s] reading manifest file 'motor_gui_pkg.egg-info/SOURCES.txt'
+[6.541s] writing manifest file 'motor_gui_pkg.egg-info/SOURCES.txt'
+[6.548s] running build_ext
+[6.549s] Creating /home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages/motor-gui-pkg.egg-link (link to .)
+[6.553s] Installing motor_gui script to /home/pi/ros2_ws/install/motor_gui_pkg/lib/motor_gui_pkg
+[6.555s] 
+[6.555s] Installed /home/pi/ros2_ws/build/motor_gui_pkg
+[6.556s] running symlink_data
+[6.556s] creating /home/pi/ros2_ws/install/motor_gui_pkg/share/motor_gui_pkg/launch
+[6.557s] symbolically linking /home/pi/ros2_ws/build/motor_gui_pkg/launch/motor_gui_launch.py -> /home/pi/ros2_ws/install/motor_gui_pkg/share/motor_gui_pkg/launch
+[6.706s] Invoked command in '/home/pi/ros2_ws/build/motor_gui_pkg' returned '0': PYTHONPATH=/home/pi/ros2_ws/build/motor_gui_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/build/motor_gui_pkg/build --no-deps symlink_data

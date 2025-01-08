@@ -1,0 +1,46 @@
+[10.559s] Invoking command in '/home/pi/ros2_ws/src/robot_serial': PYTHONPATH=/home/pi/ros2_ws/build/robot_serial/prefix_override:/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_serial build --build-base /home/pi/ros2_ws/build/robot_serial/build install --record /home/pi/ros2_ws/build/robot_serial/install.log --single-version-externally-managed install_data
+[13.403s] running egg_info
+[13.407s] creating ../../build/robot_serial/robot_serial.egg-info
+[13.410s] writing ../../build/robot_serial/robot_serial.egg-info/PKG-INFO
+[13.413s] writing dependency_links to ../../build/robot_serial/robot_serial.egg-info/dependency_links.txt
+[13.415s] writing entry points to ../../build/robot_serial/robot_serial.egg-info/entry_points.txt
+[13.417s] writing requirements to ../../build/robot_serial/robot_serial.egg-info/requires.txt
+[13.419s] writing top-level names to ../../build/robot_serial/robot_serial.egg-info/top_level.txt
+[13.422s] writing manifest file '../../build/robot_serial/robot_serial.egg-info/SOURCES.txt'
+[13.435s] reading manifest file '../../build/robot_serial/robot_serial.egg-info/SOURCES.txt'
+[13.438s] adding license file 'LICENSE'
+[13.449s] writing manifest file '../../build/robot_serial/robot_serial.egg-info/SOURCES.txt'
+[13.450s] running build
+[13.451s] running build_py
+[13.453s] creating /home/pi/ros2_ws/build/robot_serial/build
+[13.454s] creating /home/pi/ros2_ws/build/robot_serial/build/lib
+[13.455s] creating /home/pi/ros2_ws/build/robot_serial/build/lib/robot_serial
+[13.456s] copying robot_serial/__init__.py -> /home/pi/ros2_ws/build/robot_serial/build/lib/robot_serial
+[13.457s] copying robot_serial/puerto_serie_salida.py -> /home/pi/ros2_ws/build/robot_serial/build/lib/robot_serial
+[13.458s] copying robot_serial/find_ports.py -> /home/pi/ros2_ws/build/robot_serial/build/lib/robot_serial
+[13.458s] copying robot_serial/puerto_serie.py -> /home/pi/ros2_ws/build/robot_serial/build/lib/robot_serial
+[13.460s] running install
+[13.463s] running install_lib
+[13.470s] creating /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial
+[13.471s] copying /home/pi/ros2_ws/build/robot_serial/build/lib/robot_serial/__init__.py -> /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial
+[13.474s] copying /home/pi/ros2_ws/build/robot_serial/build/lib/robot_serial/puerto_serie_salida.py -> /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial
+[13.478s] copying /home/pi/ros2_ws/build/robot_serial/build/lib/robot_serial/find_ports.py -> /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial
+[13.481s] copying /home/pi/ros2_ws/build/robot_serial/build/lib/robot_serial/puerto_serie.py -> /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial
+[13.489s] byte-compiling /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial/__init__.py to __init__.cpython-310.pyc
+[13.495s] byte-compiling /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial/puerto_serie_salida.py to puerto_serie_salida.cpython-310.pyc
+[13.500s] byte-compiling /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial/find_ports.py to find_ports.cpython-310.pyc
+[13.505s] byte-compiling /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial/puerto_serie.py to puerto_serie.cpython-310.pyc
+[13.509s] running install_data
+[13.510s] creating /home/pi/ros2_ws/install/robot_serial/share/ament_index
+[13.511s] creating /home/pi/ros2_ws/install/robot_serial/share/ament_index/resource_index
+[13.512s] creating /home/pi/ros2_ws/install/robot_serial/share/ament_index/resource_index/packages
+[13.513s] copying resource/robot_serial -> /home/pi/ros2_ws/install/robot_serial/share/ament_index/resource_index/packages
+[13.514s] copying package.xml -> /home/pi/ros2_ws/install/robot_serial/share/robot_serial
+[13.517s] running install_egg_info
+[13.532s] Copying ../../build/robot_serial/robot_serial.egg-info to /home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages/robot_serial-0.0.0-py3.10.egg-info
+[13.548s] running install_scripts
+[13.678s] Installing find script to /home/pi/ros2_ws/install/robot_serial/lib/robot_serial
+[13.681s] Installing serial script to /home/pi/ros2_ws/install/robot_serial/lib/robot_serial
+[13.684s] Installing serial_salida script to /home/pi/ros2_ws/install/robot_serial/lib/robot_serial
+[13.689s] writing list of installed files to '/home/pi/ros2_ws/build/robot_serial/install.log'
+[13.877s] Invoked command in '/home/pi/ros2_ws/src/robot_serial' returned '0': PYTHONPATH=/home/pi/ros2_ws/build/robot_serial/prefix_override:/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_serial build --build-base /home/pi/ros2_ws/build/robot_serial/build install --record /home/pi/ros2_ws/build/robot_serial/install.log --single-version-externally-managed install_data

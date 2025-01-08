@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.001637] (-) JobUnselected: {'identifier': 'jsc_mecanum_bringup'}
+[0.002334] (-) JobUnselected: {'identifier': 'jsc_mecanum_control'}
+[0.002955] (-) JobUnselected: {'identifier': 'jsc_mecanum_controller'}
+[0.003186] (-) JobUnselected: {'identifier': 'jsc_mecanum_description'}
+[0.003494] (-) JobUnselected: {'identifier': 'jsc_mecanum_hardware'}
+[0.003684] (-) JobUnselected: {'identifier': 'jsc_mecanum_teleop'}
+[0.003855] (-) JobUnselected: {'identifier': 'robot_serial'}
+[0.004026] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.004294] (motor_gui_pkg) JobQueued: {'identifier': 'motor_gui_pkg', 'dependencies': OrderedDict()}
+[0.004487] (motor_gui_pkg) JobStarted: {'identifier': 'motor_gui_pkg'}
+[0.098839] (-) TimerEvent: {}
+[0.199491] (-) TimerEvent: {}
+[0.300212] (-) TimerEvent: {}
+[0.401011] (-) TimerEvent: {}
+[0.501915] (-) TimerEvent: {}
+[0.602792] (-) TimerEvent: {}
+[0.703614] (-) TimerEvent: {}
+[0.804333] (-) TimerEvent: {}
+[0.905030] (-) TimerEvent: {}
+[1.005865] (-) TimerEvent: {}
+[1.106762] (-) TimerEvent: {}
+[1.207676] (-) TimerEvent: {}
+[1.308524] (-) TimerEvent: {}
+[1.410155] (-) TimerEvent: {}
+[1.512671] (-) TimerEvent: {}
+[1.614850] (-) TimerEvent: {}
+[1.716631] (-) TimerEvent: {}
+[1.818558] (-) TimerEvent: {}
+[1.920550] (-) TimerEvent: {}
+[2.022807] (-) TimerEvent: {}
+[2.127186] (-) TimerEvent: {}
+[2.228044] (-) TimerEvent: {}
+[2.328846] (-) TimerEvent: {}
+[2.429735] (-) TimerEvent: {}
+[2.530619] (-) TimerEvent: {}
+[2.631892] (-) TimerEvent: {}
+[2.733151] (-) TimerEvent: {}
+[2.834402] (-) TimerEvent: {}
+[2.935710] (-) TimerEvent: {}
+[3.037003] (-) TimerEvent: {}
+[3.137899] (-) TimerEvent: {}
+[3.239159] (-) TimerEvent: {}
+[3.339929] (-) TimerEvent: {}
+[3.440866] (-) TimerEvent: {}
+[3.541602] (-) TimerEvent: {}
+[3.642356] (-) TimerEvent: {}
+[3.743206] (-) TimerEvent: {}
+[3.843942] (-) TimerEvent: {}
+[3.944629] (-) TimerEvent: {}
+[4.045610] (-) TimerEvent: {}
+[4.146909] (-) TimerEvent: {}
+[4.180582] (motor_gui_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/pi/ros2_ws/build/motor_gui_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/pi/ros2_ws/build/motor_gui_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.1.50 56836 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/pi/ros2_ws/install/jsc_mecanum_hardware/lib:/home/pi/ros2_ws/install/jsc_mecanum_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'TERM_PROGRAM_VERSION': '1.94.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-0aa0aa31-66e9-46f5-8666-7d09f2a07c81.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ac1b9644b8.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/robot_serial:/home/pi/ros2_ws/install/motor_gui_pkg:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pi/ros2_ws/build/motor_gui_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.50 56836 192.168.1.55 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_ws/build/motor_gui_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:/home/pi/ros2_ws/build/robot_serial:/home/pi/ros2_ws/install/robot_serial/lib/python3.10/site-packages:/home/pi/ros2_ws/build/motor_gui_pkg:/home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/ros2_ws/install/sllidar_ros2:/home/pi/ros2_ws/install/jsc_mecanum_teleop:/home/pi/ros2_ws/install/jsc_mecanum_hardware:/home/pi/ros2_ws/install/jsc_mecanum_bringup:/home/pi/ros2_ws/install/jsc_mecanum_description:/home/pi/ros2_ws/install/jsc_mecanum_controller:/home/pi/ros2_ws/install/jsc_mecanum_control'}, 'shell': False}
+[4.247067] (-) TimerEvent: {}
+[4.347861] (-) TimerEvent: {}
+[4.448667] (-) TimerEvent: {}
+[4.549649] (-) TimerEvent: {}
+[4.650636] (-) TimerEvent: {}
+[4.751379] (-) TimerEvent: {}
+[4.852077] (-) TimerEvent: {}
+[4.952764] (-) TimerEvent: {}
+[5.053491] (-) TimerEvent: {}
+[5.154200] (-) TimerEvent: {}
+[5.254876] (-) TimerEvent: {}
+[5.355544] (-) TimerEvent: {}
+[5.456224] (-) TimerEvent: {}
+[5.556985] (-) TimerEvent: {}
+[5.638120] (motor_gui_pkg) StdoutLine: {'line': b'running develop\n'}
+[5.657129] (-) TimerEvent: {}
+[5.757757] (-) TimerEvent: {}
+[5.858447] (-) TimerEvent: {}
+[5.959333] (-) TimerEvent: {}
+[6.060065] (-) TimerEvent: {}
+[6.160793] (-) TimerEvent: {}
+[6.261599] (-) TimerEvent: {}
+[6.362395] (-) TimerEvent: {}
+[6.463115] (-) TimerEvent: {}
+[6.528411] (motor_gui_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[6.529241] (motor_gui_pkg) StdoutLine: {'line': b'writing motor_gui_pkg.egg-info/PKG-INFO\n'}
+[6.530266] (motor_gui_pkg) StdoutLine: {'line': b'writing dependency_links to motor_gui_pkg.egg-info/dependency_links.txt\n'}
+[6.531213] (motor_gui_pkg) StdoutLine: {'line': b'writing entry points to motor_gui_pkg.egg-info/entry_points.txt\n'}
+[6.531967] (motor_gui_pkg) StdoutLine: {'line': b'writing requirements to motor_gui_pkg.egg-info/requires.txt\n'}
+[6.532601] (motor_gui_pkg) StdoutLine: {'line': b'writing top-level names to motor_gui_pkg.egg-info/top_level.txt\n'}
+[6.541054] (motor_gui_pkg) StdoutLine: {'line': b"reading manifest file 'motor_gui_pkg.egg-info/SOURCES.txt'\n"}
+[6.545492] (motor_gui_pkg) StdoutLine: {'line': b"writing manifest file 'motor_gui_pkg.egg-info/SOURCES.txt'\n"}
+[6.552341] (motor_gui_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[6.553296] (motor_gui_pkg) StdoutLine: {'line': b'Creating /home/pi/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages/motor-gui-pkg.egg-link (link to .)\n'}
+[6.557001] (motor_gui_pkg) StdoutLine: {'line': b'Installing motor_gui script to /home/pi/ros2_ws/install/motor_gui_pkg/lib/motor_gui_pkg\n'}
+[6.558433] (motor_gui_pkg) StdoutLine: {'line': b'\n'}
+[6.559594] (motor_gui_pkg) StdoutLine: {'line': b'Installed /home/pi/ros2_ws/build/motor_gui_pkg\n'}
+[6.560042] (motor_gui_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[6.560612] (motor_gui_pkg) StdoutLine: {'line': b'creating /home/pi/ros2_ws/install/motor_gui_pkg/share/motor_gui_pkg/launch\n'}
+[6.561200] (motor_gui_pkg) StdoutLine: {'line': b'symbolically linking /home/pi/ros2_ws/build/motor_gui_pkg/launch/motor_gui_launch.py -> /home/pi/ros2_ws/install/motor_gui_pkg/share/motor_gui_pkg/launch\n'}
+[6.563387] (-) TimerEvent: {}
+[6.664509] (-) TimerEvent: {}
+[6.708478] (motor_gui_pkg) CommandEnded: {'returncode': 0}
+[6.766588] (-) TimerEvent: {}
+[6.774537] (motor_gui_pkg) JobEnded: {'identifier': 'motor_gui_pkg', 'rc': 0}
+[6.777733] (-) EventReactorShutdown: {}
