@@ -8,7 +8,7 @@ En la **primera fase del proyecto**, se implementaron algoritmos **SLAM** para l
 
 El vehículo autónomo fue evaluado mediante diversas pruebas en escenarios controlados, demostrando su capacidad para generar mapas precisos y ejecutar trayectorias planificadas con alta exactitud. Los resultados confirmaron que el diseño e integración del sistema permitieron al vehículo desempeñar sus funciones de manera eficaz, validando el éxito del desarrollo tanto a nivel conceptual como práctico.
 
-## Project Summary (English)
+## Project Summary
 
 This TFG focuses on the development of an **autonomous vehicle** capable of performing **map generation** and **autonomous navigation**, utilizing the **ROS 2 development environment** and advanced technologies such as **LIDAR sensors**. The system integrates key modules, including **perception**, **localization**, **motion control**, and **navigation**, achieving efficient interaction between the vehicle's hardware and software.
 
