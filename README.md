@@ -1,6 +1,5 @@
 # Automatización del posicionamiento y seguimiento de trayectorias de un vehículo autónomo basado en ROS sobre planos previamente levantados
 
-![image](https://github.com/user-attachments/assets/bb9f78dd-d86d-4677-ab99-524ed244fb90)
 
 
 ## Resumen del Proyecto
