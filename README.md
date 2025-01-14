@@ -1,5 +1,8 @@
 # Automatización del posicionamiento y seguimiento de trayectorias de un vehículo autónomo basado en ROS sobre planos previamente levantados
 
+![image](https://github.com/user-attachments/assets/bb9f78dd-d86d-4677-ab99-524ed244fb90)
+
+
 ## Resumen del Proyecto
 
 Este Trabajo Fin de Grado se centra en el desarrollo de un **vehículo autónomo** capaz de realizar **levantamiento de mapas** y **navegación autónoma**, empleando el entorno de desarrollo **ROS 2** y tecnologías avanzadas como **sensores LIDAR**. El diseño del sistema integra módulos clave, como **percepción**, **localización**, **control de movimiento** y **navegación**, logrando una interacción eficiente entre el hardware y el software del vehículo.
